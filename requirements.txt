@@ -15,7 +15,7 @@ transformers==4.55.0
 #   pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision torchaudio
 # Mathematical computation libraries
 sympy==1.12
-scipy==1.11.4
+scipy==1.15.1
 matplotlib==3.8.2
 regex==2023.10.3
 # Additional libraries for numerical mode
