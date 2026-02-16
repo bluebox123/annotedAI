@@ -1,0 +1,4832 @@
+{
+  "metadata": {
+    "name": "Numerical Questions Dataset",
+    "description": "A comprehensive dataset of numerical questions for training machine learning models",
+    "total_questions": 600,
+    "created_date": "2025-09-08",
+    "version": "1.0",
+    "question_types": [
+      "algebra",
+      "word_problem",
+      "percentage",
+      "financial",
+      "time_calculation",
+      "unit_conversion",
+      "exponents",
+      "basic_arithmetic",
+      "statistics",
+      "geometry",
+      "number_theory",
+      "physics",
+      "fractions",
+      "square_roots"
+    ],
+    "difficulty_levels": [
+      "easy",
+      "medium",
+      "hard"
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is 630 + 452?",
+      "answer": 1082,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "What is 251 - 49?",
+      "answer": 202,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What is 30 \u00d7 45?",
+      "answer": 1350,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "What is 60 \u00f7 12?",
+      "answer": 5,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "What is 67 + 308?",
+      "answer": 375,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "What is 954 - 56?",
+      "answer": 898,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "What is 46 \u00d7 7?",
+      "answer": 322,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "What is 86 \u00f7 2?",
+      "answer": 43,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "What is 558 + 556?",
+      "answer": 1114,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "What is 431 - 21?",
+      "answer": 410,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "What is 5 \u00d7 7?",
+      "answer": 35,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "What is 48 \u00f7 12?",
+      "answer": 4,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "What is 306 + 402?",
+      "answer": 708,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "What is 512 - 1?",
+      "answer": 511,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "What is 7 \u00d7 39?",
+      "answer": 273,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "What is 285 \u00f7 15?",
+      "answer": 19,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "question": "What is 874 + 258?",
+      "answer": 1132,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "What is 754 - 15?",
+      "answer": 739,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "What is 27 \u00d7 27?",
+      "answer": 729,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "What is 703 \u00f7 19?",
+      "answer": 37,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "What is 516 + 373?",
+      "answer": 889,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "What is 607 - 41?",
+      "answer": 566,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "What is 3 \u00d7 41?",
+      "answer": 123,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "question": "What is 266 \u00f7 19?",
+      "answer": 14,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "What is 923 + 441?",
+      "answer": 1364,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "What is 934 - 31?",
+      "answer": 903,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 27,
+      "question": "What is 46 \u00d7 7?",
+      "answer": 322,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 28,
+      "question": "What is 228 \u00f7 6?",
+      "answer": 38,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 29,
+      "question": "What is 387 + 490?",
+      "answer": 877,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 30,
+      "question": "What is 925 - 83?",
+      "answer": 842,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 31,
+      "question": "What is 28 \u00d7 48?",
+      "answer": 1344,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "question": "What is 36 \u00f7 12?",
+      "answer": 3,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "question": "What is 305 + 894?",
+      "answer": 1199,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 34,
+      "question": "What is 737 - 39?",
+      "answer": 698,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 35,
+      "question": "What is 48 \u00d7 9?",
+      "answer": 432,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 36,
+      "question": "What is 16 \u00f7 8?",
+      "answer": 2,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "question": "What is 128 + 873?",
+      "answer": 1001,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "question": "What is 908 - 48?",
+      "answer": 860,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 39,
+      "question": "What is 13 \u00d7 22?",
+      "answer": 286,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "question": "What is 190 \u00f7 19?",
+      "answer": 10,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "question": "What is 978 + 6?",
+      "answer": 984,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 42,
+      "question": "What is 924 - 99?",
+      "answer": 825,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "question": "What is 41 \u00d7 44?",
+      "answer": 1804,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "question": "What is 288 \u00f7 9?",
+      "answer": 32,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 45,
+      "question": "What is 274 + 517?",
+      "answer": 791,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 46,
+      "question": "What is 528 - 39?",
+      "answer": 489,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 47,
+      "question": "What is 31 \u00d7 28?",
+      "answer": 868,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 48,
+      "question": "What is 702 \u00f7 18?",
+      "answer": 39,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 49,
+      "question": "What is 250 + 520?",
+      "answer": 770,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 50,
+      "question": "What is 681 - 28?",
+      "answer": 653,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 51,
+      "question": "What is 18 \u00d7 3?",
+      "answer": 54,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 52,
+      "question": "What is 253 \u00f7 11?",
+      "answer": 23,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 53,
+      "question": "What is 984 + 296?",
+      "answer": 1280,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 54,
+      "question": "What is 635 - 60?",
+      "answer": 575,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 55,
+      "question": "What is 33 \u00d7 32?",
+      "answer": 1056,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 56,
+      "question": "What is 238 \u00f7 17?",
+      "answer": 14,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 57,
+      "question": "What is 222 + 175?",
+      "answer": 397,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 58,
+      "question": "What is 894 - 11?",
+      "answer": 883,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 59,
+      "question": "What is 26 \u00d7 17?",
+      "answer": 442,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 60,
+      "question": "What is 120 \u00f7 10?",
+      "answer": 12,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 61,
+      "question": "What is 456 + 202?",
+      "answer": 658,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 62,
+      "question": "What is 288 - 13?",
+      "answer": 275,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 63,
+      "question": "What is 11 \u00d7 39?",
+      "answer": 429,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 64,
+      "question": "What is 442 \u00f7 17?",
+      "answer": 26,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 65,
+      "question": "What is 552 + 629?",
+      "answer": 1181,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 66,
+      "question": "What is 433 - 31?",
+      "answer": 402,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 67,
+      "question": "What is 22 \u00d7 37?",
+      "answer": 814,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 68,
+      "question": "What is 36 \u00f7 3?",
+      "answer": 12,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 69,
+      "question": "What is 155 + 37?",
+      "answer": 192,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 70,
+      "question": "What is 460 - 18?",
+      "answer": 442,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 71,
+      "question": "What is 26 \u00d7 28?",
+      "answer": 728,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 72,
+      "question": "What is 180 \u00f7 9?",
+      "answer": 20,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 73,
+      "question": "What is 802 + 17?",
+      "answer": 819,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 74,
+      "question": "What is 869 - 76?",
+      "answer": 793,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 75,
+      "question": "What is 16 \u00d7 18?",
+      "answer": 288,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 76,
+      "question": "What is 380 \u00f7 10?",
+      "answer": 38,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 77,
+      "question": "What is 357 + 174?",
+      "answer": 531,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 78,
+      "question": "What is 892 - 84?",
+      "answer": 808,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 79,
+      "question": "What is 5 \u00d7 2?",
+      "answer": 10,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 80,
+      "question": "What is 135 \u00f7 5?",
+      "answer": 27,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 81,
+      "question": "What is 660 + 898?",
+      "answer": 1558,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 82,
+      "question": "What is 197 - 98?",
+      "answer": 99,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 83,
+      "question": "What is 33 \u00d7 26?",
+      "answer": 858,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 84,
+      "question": "What is 180 \u00f7 5?",
+      "answer": 36,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 85,
+      "question": "What is 466 + 178?",
+      "answer": 644,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 86,
+      "question": "What is 922 - 40?",
+      "answer": 882,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 87,
+      "question": "What is 31 \u00d7 30?",
+      "answer": 930,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 88,
+      "question": "What is 180 \u00f7 18?",
+      "answer": 10,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 89,
+      "question": "What is 59 + 685?",
+      "answer": 744,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 90,
+      "question": "What is 758 - 17?",
+      "answer": 741,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 91,
+      "question": "What is 27 \u00d7 29?",
+      "answer": 783,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 92,
+      "question": "What is 368 \u00f7 8?",
+      "answer": 46,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 93,
+      "question": "What is 666 + 73?",
+      "answer": 739,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 94,
+      "question": "What is 679 - 84?",
+      "answer": 595,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 95,
+      "question": "What is 26 \u00d7 44?",
+      "answer": 1144,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 96,
+      "question": "What is 238 \u00f7 7?",
+      "answer": 34,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 97,
+      "question": "What is 265 + 768?",
+      "answer": 1033,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 98,
+      "question": "What is 405 - 52?",
+      "answer": 353,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 99,
+      "question": "What is 19 \u00d7 2?",
+      "answer": 38,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 100,
+      "question": "What is 380 \u00f7 19?",
+      "answer": 20,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 101,
+      "question": "What is 449 + 38?",
+      "answer": 487,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 102,
+      "question": "What is 396 - 15?",
+      "answer": 381,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 103,
+      "question": "What is 50 \u00d7 21?",
+      "answer": 1050,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 104,
+      "question": "What is 130 \u00f7 13?",
+      "answer": 10,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 105,
+      "question": "What is 795 + 551?",
+      "answer": 1346,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 106,
+      "question": "What is 353 - 48?",
+      "answer": 305,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 107,
+      "question": "What is 1 \u00d7 1?",
+      "answer": 1,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 108,
+      "question": "What is 306 \u00f7 9?",
+      "answer": 34,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 109,
+      "question": "What is 617 + 151?",
+      "answer": 768,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 110,
+      "question": "What is 460 - 36?",
+      "answer": 424,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 111,
+      "question": "What is 50 \u00d7 42?",
+      "answer": 2100,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 112,
+      "question": "What is 660 \u00f7 15?",
+      "answer": 44,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 113,
+      "question": "What is 815 + 909?",
+      "answer": 1724,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 114,
+      "question": "What is 759 - 77?",
+      "answer": 682,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 115,
+      "question": "What is 13 \u00d7 29?",
+      "answer": 377,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 116,
+      "question": "What is 10 \u00f7 2?",
+      "answer": 5,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 117,
+      "question": "What is 310 + 684?",
+      "answer": 994,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 118,
+      "question": "What is 574 - 95?",
+      "answer": 479,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 119,
+      "question": "What is 13 \u00d7 48?",
+      "answer": 624,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 120,
+      "question": "What is 690 \u00f7 15?",
+      "answer": 46,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 121,
+      "question": "What is 937 + 222?",
+      "answer": 1159,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 122,
+      "question": "What is 184 - 4?",
+      "answer": 180,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 123,
+      "question": "What is 4 \u00d7 39?",
+      "answer": 156,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 124,
+      "question": "What is 175 \u00f7 7?",
+      "answer": 25,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 125,
+      "question": "What is 688 + 745?",
+      "answer": 1433,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 126,
+      "question": "What is 162 - 89?",
+      "answer": 73,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 127,
+      "question": "What is 31 \u00d7 2?",
+      "answer": 62,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 128,
+      "question": "What is 117 \u00f7 9?",
+      "answer": 13,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 129,
+      "question": "What is 547 + 377?",
+      "answer": 924,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 130,
+      "question": "What is 680 - 3?",
+      "answer": 677,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 131,
+      "question": "What is 25 \u00d7 21?",
+      "answer": 525,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 132,
+      "question": "What is 378 \u00f7 18?",
+      "answer": 21,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 133,
+      "question": "What is 54 + 487?",
+      "answer": 541,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 134,
+      "question": "What is 293 - 86?",
+      "answer": 207,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 135,
+      "question": "What is 4 \u00d7 21?",
+      "answer": 84,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 136,
+      "question": "What is 162 \u00f7 9?",
+      "answer": 18,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 137,
+      "question": "What is 554 + 618?",
+      "answer": 1172,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 138,
+      "question": "What is 937 - 4?",
+      "answer": 933,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 139,
+      "question": "What is 27 \u00d7 19?",
+      "answer": 513,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 140,
+      "question": "What is 70 \u00f7 5?",
+      "answer": 14,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 141,
+      "question": "What is 608 + 733?",
+      "answer": 1341,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 142,
+      "question": "What is 342 - 36?",
+      "answer": 306,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 143,
+      "question": "What is 49 \u00d7 17?",
+      "answer": 833,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 144,
+      "question": "What is 80 \u00f7 16?",
+      "answer": 5,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 145,
+      "question": "What is 209 + 684?",
+      "answer": 893,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 146,
+      "question": "What is 857 - 41?",
+      "answer": 816,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 147,
+      "question": "What is 5 \u00d7 45?",
+      "answer": 225,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 148,
+      "question": "What is 150 \u00f7 15?",
+      "answer": 10,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 149,
+      "question": "What is 923 + 650?",
+      "answer": 1573,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 150,
+      "question": "What is 451 - 87?",
+      "answer": 364,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 151,
+      "question": "What is 23 \u00d7 11?",
+      "answer": 253,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 152,
+      "question": "What is 608 \u00f7 19?",
+      "answer": 32,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 153,
+      "question": "What is 416 + 263?",
+      "answer": 679,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 154,
+      "question": "What is 512 - 94?",
+      "answer": 418,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 155,
+      "question": "What is 7 \u00d7 33?",
+      "answer": 231,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 156,
+      "question": "What is 351 \u00f7 13?",
+      "answer": 27,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 157,
+      "question": "What is 872 + 525?",
+      "answer": 1397,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 158,
+      "question": "What is 625 - 61?",
+      "answer": 564,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 159,
+      "question": "What is 20 \u00d7 6?",
+      "answer": 120,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 160,
+      "question": "What is 816 \u00f7 17?",
+      "answer": 48,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 161,
+      "question": "What is 393 + 537?",
+      "answer": 930,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 162,
+      "question": "What is 950 - 87?",
+      "answer": 863,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 163,
+      "question": "What is 28 \u00d7 35?",
+      "answer": 980,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 164,
+      "question": "What is 495 \u00f7 15?",
+      "answer": 33,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 165,
+      "question": "What is 197 + 9?",
+      "answer": 206,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 166,
+      "question": "What is 731 - 76?",
+      "answer": 655,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 167,
+      "question": "What is 36 \u00d7 6?",
+      "answer": 216,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 168,
+      "question": "What is 264 \u00f7 8?",
+      "answer": 33,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 169,
+      "question": "What is 514 + 745?",
+      "answer": 1259,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 170,
+      "question": "What is 642 - 32?",
+      "answer": 610,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 171,
+      "question": "What is 10 \u00d7 33?",
+      "answer": 330,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 172,
+      "question": "What is 272 \u00f7 17?",
+      "answer": 16,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 173,
+      "question": "What is 673 + 505?",
+      "answer": 1178,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 174,
+      "question": "What is 939 - 21?",
+      "answer": 918,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 175,
+      "question": "What is 49 \u00d7 24?",
+      "answer": 1176,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 176,
+      "question": "What is 660 \u00f7 20?",
+      "answer": 33,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 177,
+      "question": "What is 434 + 146?",
+      "answer": 580,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 178,
+      "question": "What is 556 - 7?",
+      "answer": 549,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 179,
+      "question": "What is 34 \u00d7 26?",
+      "answer": 884,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 180,
+      "question": "What is 195 \u00f7 15?",
+      "answer": 13,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 181,
+      "question": "What is 867 + 89?",
+      "answer": 956,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 182,
+      "question": "What is 976 - 45?",
+      "answer": 931,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 183,
+      "question": "What is 40 \u00d7 48?",
+      "answer": 1920,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 184,
+      "question": "What is 288 \u00f7 12?",
+      "answer": 24,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 185,
+      "question": "What is 335 + 700?",
+      "answer": 1035,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 186,
+      "question": "What is 975 - 5?",
+      "answer": 970,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 187,
+      "question": "What is 38 \u00d7 29?",
+      "answer": 1102,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 188,
+      "question": "What is 114 \u00f7 6?",
+      "answer": 19,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 189,
+      "question": "What is 719 + 620?",
+      "answer": 1339,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 190,
+      "question": "What is 572 - 76?",
+      "answer": 496,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 191,
+      "question": "What is 23 \u00d7 45?",
+      "answer": 1035,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 192,
+      "question": "What is 21 \u00f7 3?",
+      "answer": 7,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 193,
+      "question": "What is 107 + 161?",
+      "answer": 268,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 194,
+      "question": "What is 952 - 69?",
+      "answer": 883,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 195,
+      "question": "What is 30 \u00d7 21?",
+      "answer": 630,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 196,
+      "question": "What is 850 \u00f7 17?",
+      "answer": 50,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 197,
+      "question": "What is 418 + 288?",
+      "answer": 706,
+      "type": "basic_arithmetic",
+      "subtype": "addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 198,
+      "question": "What is 535 - 73?",
+      "answer": 462,
+      "type": "basic_arithmetic",
+      "subtype": "subtraction",
+      "difficulty": "easy"
+    },
+    {
+      "id": 199,
+      "question": "What is 16 \u00d7 29?",
+      "answer": 464,
+      "type": "basic_arithmetic",
+      "subtype": "multiplication",
+      "difficulty": "easy"
+    },
+    {
+      "id": 200,
+      "question": "What is 1000 \u00f7 20?",
+      "answer": 50,
+      "type": "basic_arithmetic",
+      "subtype": "division",
+      "difficulty": "easy"
+    },
+    {
+      "id": 201,
+      "question": "A store has 141 books on Monday. They receive 20 more books on Tuesday. How many books do they have in total?",
+      "answer": 161,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 202,
+      "question": "A baker makes 7 cookies per batch. If he makes 19 batches, how many cookies does he make in total?",
+      "answer": 133,
+      "type": "word_problem",
+      "subtype": "multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 203,
+      "question": "There are 120 students in a class. If they are divided into groups of 8 students each, how many groups are there?",
+      "answer": 15,
+      "type": "word_problem",
+      "subtype": "division",
+      "difficulty": "medium"
+    },
+    {
+      "id": 204,
+      "question": "Sarah has 73 apples. She gives 20 apples to her friend. How many apples does she have left?",
+      "answer": 53,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 205,
+      "question": "Sarah has 101 apples. She gives 33 apples to her friend. How many apples does she have left?",
+      "answer": 68,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 206,
+      "question": "There are 54 students in a class. If they are divided into groups of 3 students each, how many groups are there?",
+      "answer": 18,
+      "type": "word_problem",
+      "subtype": "division",
+      "difficulty": "medium"
+    },
+    {
+      "id": 207,
+      "question": "A baker makes 20 cookies per batch. If he makes 19 batches, how many cookies does he make in total?",
+      "answer": 380,
+      "type": "word_problem",
+      "subtype": "multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 208,
+      "question": "Lisa buys 185 packs of stickers. Each pack has 117 stickers. How many stickers does she have in total?",
+      "answer": 302,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 209,
+      "question": "There are 351 students in a class. If they are divided into groups of 13 students each, how many groups are there?",
+      "answer": 27,
+      "type": "word_problem",
+      "subtype": "division",
+      "difficulty": "medium"
+    },
+    {
+      "id": 210,
+      "question": "A store has 61 books on Monday. They receive 113 more books on Tuesday. How many books do they have in total?",
+      "answer": 174,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 211,
+      "question": "A company has 225 employees. 45 employees work from home. How many employees work in the office?",
+      "answer": 180,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 212,
+      "question": "A baker makes 8 cookies per batch. If he makes 5 batches, how many cookies does he make in total?",
+      "answer": 40,
+      "type": "word_problem",
+      "subtype": "multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 213,
+      "question": "A store has 187 books on Monday. They receive 148 more books on Tuesday. How many books do they have in total?",
+      "answer": 335,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 214,
+      "question": "A store has 92 books on Monday. They receive 108 more books on Tuesday. How many books do they have in total?",
+      "answer": 200,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 215,
+      "question": "A baker makes 25 cookies per batch. If he makes 10 batches, how many cookies does he make in total?",
+      "answer": 250,
+      "type": "word_problem",
+      "subtype": "multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 216,
+      "question": "A car travels 390 miles in 13 hours. How many miles does it travel per hour?",
+      "answer": 30,
+      "type": "word_problem",
+      "subtype": "division",
+      "difficulty": "medium"
+    },
+    {
+      "id": 217,
+      "question": "A company has 245 employees. 42 employees work from home. How many employees work in the office?",
+      "answer": 203,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 218,
+      "question": "Lisa buys 142 packs of stickers. Each pack has 165 stickers. How many stickers does she have in total?",
+      "answer": 307,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 219,
+      "question": "Lisa buys 134 packs of stickers. Each pack has 105 stickers. How many stickers does she have in total?",
+      "answer": 239,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 220,
+      "question": "Sarah has 81 apples. She gives 48 apples to her friend. How many apples does she have left?",
+      "answer": 33,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 221,
+      "question": "A store has 58 books on Monday. They receive 75 more books on Tuesday. How many books do they have in total?",
+      "answer": 133,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 222,
+      "question": "A company has 171 employees. 40 employees work from home. How many employees work in the office?",
+      "answer": 131,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 223,
+      "question": "A car travels 20 miles in 2 hours. How many miles does it travel per hour?",
+      "answer": 10,
+      "type": "word_problem",
+      "subtype": "division",
+      "difficulty": "medium"
+    },
+    {
+      "id": 224,
+      "question": "Lisa buys 189 packs of stickers. Each pack has 113 stickers. How many stickers does she have in total?",
+      "answer": 302,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 225,
+      "question": "There are 280 students in a class. If they are divided into groups of 20 students each, how many groups are there?",
+      "answer": 14,
+      "type": "word_problem",
+      "subtype": "division",
+      "difficulty": "medium"
+    },
+    {
+      "id": 226,
+      "question": "There are 324 students in a class. If they are divided into groups of 12 students each, how many groups are there?",
+      "answer": 27,
+      "type": "word_problem",
+      "subtype": "division",
+      "difficulty": "medium"
+    },
+    {
+      "id": 227,
+      "question": "There are 87 students in a class. If they are divided into groups of 3 students each, how many groups are there?",
+      "answer": 29,
+      "type": "word_problem",
+      "subtype": "division",
+      "difficulty": "medium"
+    },
+    {
+      "id": 228,
+      "question": "A company has 115 employees. 48 employees work from home. How many employees work in the office?",
+      "answer": 67,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 229,
+      "question": "A baker makes 10 cookies per batch. If he makes 22 batches, how many cookies does he make in total?",
+      "answer": 220,
+      "type": "word_problem",
+      "subtype": "multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 230,
+      "question": "Sarah has 83 apples. She gives 33 apples to her friend. How many apples does she have left?",
+      "answer": 50,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 231,
+      "question": "A company has 165 employees. 36 employees work from home. How many employees work in the office?",
+      "answer": 129,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 232,
+      "question": "Lisa buys 55 packs of stickers. Each pack has 151 stickers. How many stickers does she have in total?",
+      "answer": 206,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 233,
+      "question": "Sarah has 160 apples. She gives 45 apples to her friend. How many apples does she have left?",
+      "answer": 115,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 234,
+      "question": "Sarah has 200 apples. She gives 17 apples to her friend. How many apples does she have left?",
+      "answer": 183,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 235,
+      "question": "A store has 107 books on Monday. They receive 54 more books on Tuesday. How many books do they have in total?",
+      "answer": 161,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 236,
+      "question": "Lisa buys 199 packs of stickers. Each pack has 14 stickers. How many stickers does she have in total?",
+      "answer": 213,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 237,
+      "question": "Lisa buys 28 packs of stickers. Each pack has 34 stickers. How many stickers does she have in total?",
+      "answer": 62,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 238,
+      "question": "Lisa buys 191 packs of stickers. Each pack has 171 stickers. How many stickers does she have in total?",
+      "answer": 362,
+      "type": "word_problem",
+      "subtype": "addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 239,
+      "question": "Sarah has 232 apples. She gives 17 apples to her friend. How many apples does she have left?",
+      "answer": 215,
+      "type": "word_problem",
+      "subtype": "subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 240,
+      "question": "Tom saves $22 every month for 9 months. How much money does he save in total?",
+      "answer": 198,
+      "type": "word_problem",
+      "subtype": "multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 241,
+      "question": "What is 30% of 342?",
+      "answer": 102,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 242,
+      "question": "A price increases from $369 by 13%. What is the new price?",
+      "answer": 416,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 243,
+      "question": "What is 80% of 368?",
+      "answer": 294,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 244,
+      "question": "A price decreases from $371 by 34%. What is the new price?",
+      "answer": 245,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 245,
+      "question": "What is 20% of 352?",
+      "answer": 70,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 246,
+      "question": "A price decreases from $351 by 43%. What is the new price?",
+      "answer": 201,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 247,
+      "question": "What is 20% of 112?",
+      "answer": 22,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 248,
+      "question": "A price decreases from $835 by 5%. What is the new price?",
+      "answer": 794,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 249,
+      "question": "What is 20% of 376?",
+      "answer": 75,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 250,
+      "question": "A price decreases from $522 by 43%. What is the new price?",
+      "answer": 298,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 251,
+      "question": "What is 50% of 482?",
+      "answer": 241,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 252,
+      "question": "A price decreases from $696 by 32%. What is the new price?",
+      "answer": 474,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 253,
+      "question": "What is 25% of 254?",
+      "answer": 63,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 254,
+      "question": "A price decreases from $631 by 43%. What is the new price?",
+      "answer": 360,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 255,
+      "question": "What is 15% of 240?",
+      "answer": 36,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 256,
+      "question": "A price increases from $717 by 14%. What is the new price?",
+      "answer": 817,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 257,
+      "question": "What is 80% of 376?",
+      "answer": 300,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 258,
+      "question": "A price decreases from $406 by 11%. What is the new price?",
+      "answer": 362,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 259,
+      "question": "What is 90% of 148?",
+      "answer": 133,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 260,
+      "question": "A price decreases from $249 by 20%. What is the new price?",
+      "answer": 200,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 261,
+      "question": "What is 10% of 315?",
+      "answer": 31,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 262,
+      "question": "A price increases from $584 by 50%. What is the new price?",
+      "answer": 876,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 263,
+      "question": "What is 90% of 198?",
+      "answer": 178,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 264,
+      "question": "A price decreases from $274 by 25%. What is the new price?",
+      "answer": 206,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 265,
+      "question": "What is 50% of 72?",
+      "answer": 36,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 266,
+      "question": "A price decreases from $976 by 17%. What is the new price?",
+      "answer": 811,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 267,
+      "question": "What is 40% of 182?",
+      "answer": 72,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 268,
+      "question": "A price decreases from $932 by 26%. What is the new price?",
+      "answer": 690,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 269,
+      "question": "What is 30% of 337?",
+      "answer": 101,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 270,
+      "question": "A price decreases from $475 by 10%. What is the new price?",
+      "answer": 428,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 271,
+      "question": "What is 25% of 213?",
+      "answer": 53,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 272,
+      "question": "A price decreases from $163 by 6%. What is the new price?",
+      "answer": 154,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 273,
+      "question": "What is 25% of 87?",
+      "answer": 21,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 274,
+      "question": "A price increases from $756 by 39%. What is the new price?",
+      "answer": 1050,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 275,
+      "question": "What is 15% of 184?",
+      "answer": 27,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 276,
+      "question": "A price increases from $548 by 42%. What is the new price?",
+      "answer": 778,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 277,
+      "question": "What is 90% of 468?",
+      "answer": 421,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 278,
+      "question": "A price increases from $581 by 43%. What is the new price?",
+      "answer": 830,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 279,
+      "question": "What is 90% of 146?",
+      "answer": 131,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 280,
+      "question": "A price increases from $523 by 6%. What is the new price?",
+      "answer": 554,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 281,
+      "question": "What is 75% of 172?",
+      "answer": 129,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 282,
+      "question": "A price increases from $129 by 7%. What is the new price?",
+      "answer": 138,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 283,
+      "question": "What is 75% of 279?",
+      "answer": 209,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 284,
+      "question": "A price increases from $466 by 47%. What is the new price?",
+      "answer": 685,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 285,
+      "question": "What is 30% of 423?",
+      "answer": 126,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 286,
+      "question": "A price decreases from $526 by 17%. What is the new price?",
+      "answer": 437,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 287,
+      "question": "What is 10% of 113?",
+      "answer": 11,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 288,
+      "question": "A price increases from $826 by 14%. What is the new price?",
+      "answer": 941,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 289,
+      "question": "What is 30% of 403?",
+      "answer": 120,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 290,
+      "question": "A price decreases from $812 by 22%. What is the new price?",
+      "answer": 634,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 291,
+      "question": "What is 30% of 306?",
+      "answer": 91,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 292,
+      "question": "A price decreases from $539 by 23%. What is the new price?",
+      "answer": 416,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 293,
+      "question": "What is 25% of 270?",
+      "answer": 67,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 294,
+      "question": "A price increases from $281 by 25%. What is the new price?",
+      "answer": 351,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 295,
+      "question": "What is 30% of 441?",
+      "answer": 132,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 296,
+      "question": "A price decreases from $756 by 32%. What is the new price?",
+      "answer": 515,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 297,
+      "question": "What is 75% of 305?",
+      "answer": 228,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 298,
+      "question": "A price increases from $259 by 49%. What is the new price?",
+      "answer": 385,
+      "type": "percentage",
+      "subtype": "percentage_increase",
+      "difficulty": "medium"
+    },
+    {
+      "id": 299,
+      "question": "What is 10% of 218?",
+      "answer": 21,
+      "type": "percentage",
+      "subtype": "percentage_of_number",
+      "difficulty": "medium"
+    },
+    {
+      "id": 300,
+      "question": "A price decreases from $297 by 46%. What is the new price?",
+      "answer": 161,
+      "type": "percentage",
+      "subtype": "percentage_decrease",
+      "difficulty": "medium"
+    },
+    {
+      "id": 301,
+      "question": "What is the area of a rectangle with length 8 and width 18?",
+      "answer": 144,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 302,
+      "question": "What is the perimeter of a rectangle with length 18 and width 19?",
+      "answer": 74,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 303,
+      "question": "What is the area of a triangle with base 12 and height 9?",
+      "answer": 54,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 304,
+      "question": "What is the area of a rectangle with length 15 and width 14?",
+      "answer": 210,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 305,
+      "question": "What is the perimeter of a rectangle with length 14 and width 13?",
+      "answer": 54,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 306,
+      "question": "What is the area of a triangle with base 16 and height 20?",
+      "answer": 160,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 307,
+      "question": "What is the area of a rectangle with length 7 and width 12?",
+      "answer": 84,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 308,
+      "question": "What is the perimeter of a rectangle with length 12 and width 15?",
+      "answer": 54,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 309,
+      "question": "What is the area of a triangle with base 20 and height 18?",
+      "answer": 180,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 310,
+      "question": "What is the area of a rectangle with length 20 and width 15?",
+      "answer": 300,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 311,
+      "question": "What is the perimeter of a rectangle with length 8 and width 7?",
+      "answer": 30,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 312,
+      "question": "What is the area of a triangle with base 16 and height 16?",
+      "answer": 128,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 313,
+      "question": "What is the area of a rectangle with length 6 and width 17?",
+      "answer": 102,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 314,
+      "question": "What is the perimeter of a rectangle with length 16 and width 20?",
+      "answer": 72,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 315,
+      "question": "What is the area of a triangle with base 10 and height 4?",
+      "answer": 20,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 316,
+      "question": "What is the area of a rectangle with length 16 and width 17?",
+      "answer": 272,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 317,
+      "question": "What is the perimeter of a rectangle with length 12 and width 16?",
+      "answer": 56,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 318,
+      "question": "What is the area of a triangle with base 6 and height 6?",
+      "answer": 18,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 319,
+      "question": "What is the area of a rectangle with length 19 and width 18?",
+      "answer": 342,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 320,
+      "question": "What is the perimeter of a rectangle with length 14 and width 18?",
+      "answer": 64,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 321,
+      "question": "What is the area of a triangle with base 18 and height 19?",
+      "answer": 171,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 322,
+      "question": "What is the area of a rectangle with length 10 and width 15?",
+      "answer": 150,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 323,
+      "question": "What is the perimeter of a rectangle with length 8 and width 19?",
+      "answer": 54,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 324,
+      "question": "What is the area of a triangle with base 5 and height 9?",
+      "answer": 22,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 325,
+      "question": "What is the area of a rectangle with length 19 and width 11?",
+      "answer": 209,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 326,
+      "question": "What is the perimeter of a rectangle with length 13 and width 13?",
+      "answer": 52,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 327,
+      "question": "What is the area of a triangle with base 18 and height 13?",
+      "answer": 117,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 328,
+      "question": "What is the area of a rectangle with length 7 and width 20?",
+      "answer": 140,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 329,
+      "question": "What is the perimeter of a rectangle with length 19 and width 13?",
+      "answer": 64,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 330,
+      "question": "What is the area of a triangle with base 18 and height 10?",
+      "answer": 90,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 331,
+      "question": "What is the area of a rectangle with length 7 and width 10?",
+      "answer": 70,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 332,
+      "question": "What is the perimeter of a rectangle with length 19 and width 14?",
+      "answer": 66,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 333,
+      "question": "What is the area of a triangle with base 4 and height 8?",
+      "answer": 16,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 334,
+      "question": "What is the area of a rectangle with length 19 and width 9?",
+      "answer": 171,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 335,
+      "question": "What is the perimeter of a rectangle with length 19 and width 18?",
+      "answer": 74,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 336,
+      "question": "What is the area of a triangle with base 5 and height 13?",
+      "answer": 32,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 337,
+      "question": "What is the area of a rectangle with length 13 and width 13?",
+      "answer": 169,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 338,
+      "question": "What is the perimeter of a rectangle with length 17 and width 9?",
+      "answer": 52,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 339,
+      "question": "What is the area of a triangle with base 5 and height 11?",
+      "answer": 27,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 340,
+      "question": "What is the area of a rectangle with length 13 and width 7?",
+      "answer": 91,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 341,
+      "question": "What is the perimeter of a rectangle with length 17 and width 11?",
+      "answer": 56,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 342,
+      "question": "What is the area of a triangle with base 20 and height 11?",
+      "answer": 110,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 343,
+      "question": "What is the area of a rectangle with length 6 and width 10?",
+      "answer": 60,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 344,
+      "question": "What is the perimeter of a rectangle with length 6 and width 5?",
+      "answer": 22,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 345,
+      "question": "What is the area of a triangle with base 12 and height 17?",
+      "answer": 102,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 346,
+      "question": "What is the area of a rectangle with length 16 and width 12?",
+      "answer": 192,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 347,
+      "question": "What is the perimeter of a rectangle with length 8 and width 14?",
+      "answer": 44,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 348,
+      "question": "What is the area of a triangle with base 10 and height 19?",
+      "answer": 95,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 349,
+      "question": "What is the area of a rectangle with length 15 and width 18?",
+      "answer": 270,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 350,
+      "question": "What is the perimeter of a rectangle with length 15 and width 10?",
+      "answer": 50,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 351,
+      "question": "What is the area of a triangle with base 18 and height 18?",
+      "answer": 162,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 352,
+      "question": "What is the area of a rectangle with length 20 and width 13?",
+      "answer": 260,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 353,
+      "question": "What is the perimeter of a rectangle with length 18 and width 13?",
+      "answer": 62,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 354,
+      "question": "What is the area of a triangle with base 4 and height 12?",
+      "answer": 24,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 355,
+      "question": "What is the area of a rectangle with length 18 and width 10?",
+      "answer": 180,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 356,
+      "question": "What is the perimeter of a rectangle with length 19 and width 20?",
+      "answer": 78,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 357,
+      "question": "What is the area of a triangle with base 13 and height 8?",
+      "answer": 52,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 358,
+      "question": "What is the area of a rectangle with length 5 and width 19?",
+      "answer": 95,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 359,
+      "question": "What is the perimeter of a rectangle with length 14 and width 15?",
+      "answer": 58,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 360,
+      "question": "What is the area of a triangle with base 15 and height 9?",
+      "answer": 67,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 361,
+      "question": "What is the area of a rectangle with length 9 and width 14?",
+      "answer": 126,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 362,
+      "question": "What is the perimeter of a rectangle with length 16 and width 7?",
+      "answer": 46,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 363,
+      "question": "What is the area of a triangle with base 17 and height 7?",
+      "answer": 59,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 364,
+      "question": "What is the area of a rectangle with length 14 and width 18?",
+      "answer": 252,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 365,
+      "question": "What is the perimeter of a rectangle with length 6 and width 13?",
+      "answer": 38,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 366,
+      "question": "What is the area of a triangle with base 20 and height 14?",
+      "answer": 140,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 367,
+      "question": "What is the area of a rectangle with length 12 and width 14?",
+      "answer": 168,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 368,
+      "question": "What is the perimeter of a rectangle with length 15 and width 20?",
+      "answer": 70,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 369,
+      "question": "What is the area of a triangle with base 19 and height 14?",
+      "answer": 133,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 370,
+      "question": "What is the area of a rectangle with length 9 and width 18?",
+      "answer": 162,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 371,
+      "question": "What is the perimeter of a rectangle with length 10 and width 11?",
+      "answer": 42,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 372,
+      "question": "What is the area of a triangle with base 20 and height 16?",
+      "answer": 160,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 373,
+      "question": "What is the area of a rectangle with length 7 and width 17?",
+      "answer": 119,
+      "type": "geometry",
+      "subtype": "area_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 374,
+      "question": "What is the perimeter of a rectangle with length 9 and width 5?",
+      "answer": 28,
+      "type": "geometry",
+      "subtype": "perimeter_rectangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 375,
+      "question": "What is the area of a triangle with base 19 and height 20?",
+      "answer": 190,
+      "type": "geometry",
+      "subtype": "area_triangle",
+      "difficulty": "medium"
+    },
+    {
+      "id": 376,
+      "question": "Solve for x: x + 34 = 93",
+      "answer": 59,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 377,
+      "question": "Solve for x: 11x = 22",
+      "answer": 2,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 378,
+      "question": "Solve for x: x + 36 = 94",
+      "answer": 58,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 379,
+      "question": "Solve for x: 5x = 15",
+      "answer": 3,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 380,
+      "question": "Solve for x: x + 16 = 91",
+      "answer": 75,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 381,
+      "question": "Solve for x: 4x = 68",
+      "answer": 17,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 382,
+      "question": "Solve for x: x + 35 = 36",
+      "answer": 1,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 383,
+      "question": "Solve for x: 12x = 36",
+      "answer": 3,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 384,
+      "question": "Solve for x: x + 25 = 34",
+      "answer": 9,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 385,
+      "question": "Solve for x: 11x = 55",
+      "answer": 5,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 386,
+      "question": "Solve for x: x + 21 = 54",
+      "answer": 33,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 387,
+      "question": "Solve for x: 11x = 22",
+      "answer": 2,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 388,
+      "question": "Solve for x: x + 23 = 99",
+      "answer": 76,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 389,
+      "question": "Solve for x: 3x = 36",
+      "answer": 12,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 390,
+      "question": "Solve for x: x + 44 = 79",
+      "answer": 35,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 391,
+      "question": "Solve for x: 10x = 70",
+      "answer": 7,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 392,
+      "question": "Solve for x: x + 46 = 80",
+      "answer": 34,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 393,
+      "question": "Solve for x: 8x = 136",
+      "answer": 17,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 394,
+      "question": "Solve for x: x + 45 = 69",
+      "answer": 24,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 395,
+      "question": "Solve for x: 8x = 40",
+      "answer": 5,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 396,
+      "question": "Solve for x: x + 27 = 35",
+      "answer": 8,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 397,
+      "question": "Solve for x: 5x = 90",
+      "answer": 18,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 398,
+      "question": "Solve for x: x + 27 = 61",
+      "answer": 34,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 399,
+      "question": "Solve for x: 12x = 84",
+      "answer": 7,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 400,
+      "question": "Solve for x: x + 41 = 66",
+      "answer": 25,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 401,
+      "question": "Solve for x: 11x = 132",
+      "answer": 12,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 402,
+      "question": "Solve for x: x + 12 = 97",
+      "answer": 85,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 403,
+      "question": "Solve for x: 6x = 48",
+      "answer": 8,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 404,
+      "question": "Solve for x: x + 30 = 94",
+      "answer": 64,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 405,
+      "question": "Solve for x: 3x = 48",
+      "answer": 16,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 406,
+      "question": "Solve for x: x + 41 = 50",
+      "answer": 9,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 407,
+      "question": "Solve for x: 8x = 160",
+      "answer": 20,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 408,
+      "question": "Solve for x: x + 50 = 93",
+      "answer": 43,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 409,
+      "question": "Solve for x: 10x = 50",
+      "answer": 5,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 410,
+      "question": "Solve for x: x + 42 = 48",
+      "answer": 6,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 411,
+      "question": "Solve for x: 2x = 36",
+      "answer": 18,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 412,
+      "question": "Solve for x: x + 8 = 17",
+      "answer": 9,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 413,
+      "question": "Solve for x: 8x = 120",
+      "answer": 15,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 414,
+      "question": "Solve for x: x + 44 = 58",
+      "answer": 14,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 415,
+      "question": "Solve for x: 2x = 40",
+      "answer": 20,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 416,
+      "question": "Solve for x: x + 9 = 73",
+      "answer": 64,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 417,
+      "question": "Solve for x: 5x = 95",
+      "answer": 19,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 418,
+      "question": "Solve for x: x + 50 = 57",
+      "answer": 7,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 419,
+      "question": "Solve for x: 11x = 143",
+      "answer": 13,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 420,
+      "question": "Solve for x: x + 45 = 54",
+      "answer": 9,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 421,
+      "question": "Solve for x: 5x = 100",
+      "answer": 20,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 422,
+      "question": "Solve for x: x + 44 = 55",
+      "answer": 11,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 423,
+      "question": "Solve for x: 7x = 70",
+      "answer": 10,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 424,
+      "question": "Solve for x: x + 21 = 70",
+      "answer": 49,
+      "type": "algebra",
+      "subtype": "linear_equation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 425,
+      "question": "Solve for x: 5x = 40",
+      "answer": 8,
+      "type": "algebra",
+      "subtype": "linear_equation_multiplication",
+      "difficulty": "medium"
+    },
+    {
+      "id": 426,
+      "question": "Calculate simple interest on $7941 at 13% per year for 1 years.",
+      "answer": 1032,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 427,
+      "question": "An item costs $208. If tax is 6%, what is the total cost?",
+      "answer": 220,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 428,
+      "question": "Calculate simple interest on $8650 at 15% per year for 5 years.",
+      "answer": 6487,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 429,
+      "question": "An item costs $274. If tax is 12%, what is the total cost?",
+      "answer": 306,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 430,
+      "question": "Calculate simple interest on $9388 at 7% per year for 1 years.",
+      "answer": 657,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 431,
+      "question": "An item costs $151. If tax is 7%, what is the total cost?",
+      "answer": 161,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 432,
+      "question": "Calculate simple interest on $8792 at 6% per year for 2 years.",
+      "answer": 1055,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 433,
+      "question": "An item costs $137. If tax is 7%, what is the total cost?",
+      "answer": 146,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 434,
+      "question": "Calculate simple interest on $5820 at 7% per year for 5 years.",
+      "answer": 2037,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 435,
+      "question": "An item costs $122. If tax is 9%, what is the total cost?",
+      "answer": 132,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 436,
+      "question": "Calculate simple interest on $6098 at 13% per year for 2 years.",
+      "answer": 1585,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 437,
+      "question": "An item costs $399. If tax is 12%, what is the total cost?",
+      "answer": 446,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 438,
+      "question": "Calculate simple interest on $7037 at 9% per year for 2 years.",
+      "answer": 1266,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 439,
+      "question": "An item costs $257. If tax is 12%, what is the total cost?",
+      "answer": 287,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 440,
+      "question": "Calculate simple interest on $2814 at 8% per year for 3 years.",
+      "answer": 675,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 441,
+      "question": "An item costs $122. If tax is 12%, what is the total cost?",
+      "answer": 136,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 442,
+      "question": "Calculate simple interest on $7893 at 13% per year for 2 years.",
+      "answer": 2052,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 443,
+      "question": "An item costs $385. If tax is 8%, what is the total cost?",
+      "answer": 415,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 444,
+      "question": "Calculate simple interest on $830 at 14% per year for 2 years.",
+      "answer": 232,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 445,
+      "question": "An item costs $296. If tax is 8%, what is the total cost?",
+      "answer": 319,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 446,
+      "question": "Calculate simple interest on $5029 at 11% per year for 2 years.",
+      "answer": 1106,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 447,
+      "question": "An item costs $86. If tax is 7%, what is the total cost?",
+      "answer": 92,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 448,
+      "question": "Calculate simple interest on $4034 at 13% per year for 5 years.",
+      "answer": 2622,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 449,
+      "question": "An item costs $442. If tax is 9%, what is the total cost?",
+      "answer": 481,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 450,
+      "question": "Calculate simple interest on $6768 at 9% per year for 2 years.",
+      "answer": 1218,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 451,
+      "question": "An item costs $297. If tax is 12%, what is the total cost?",
+      "answer": 332,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 452,
+      "question": "Calculate simple interest on $7971 at 3% per year for 2 years.",
+      "answer": 478,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 453,
+      "question": "An item costs $482. If tax is 15%, what is the total cost?",
+      "answer": 554,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 454,
+      "question": "Calculate simple interest on $2854 at 2% per year for 5 years.",
+      "answer": 285,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 455,
+      "question": "An item costs $187. If tax is 9%, what is the total cost?",
+      "answer": 203,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 456,
+      "question": "Calculate simple interest on $3559 at 4% per year for 5 years.",
+      "answer": 711,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 457,
+      "question": "An item costs $58. If tax is 8%, what is the total cost?",
+      "answer": 62,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 458,
+      "question": "Calculate simple interest on $7183 at 15% per year for 4 years.",
+      "answer": 4309,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 459,
+      "question": "An item costs $492. If tax is 10%, what is the total cost?",
+      "answer": 541,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 460,
+      "question": "Calculate simple interest on $4793 at 3% per year for 1 years.",
+      "answer": 143,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 461,
+      "question": "An item costs $494. If tax is 5%, what is the total cost?",
+      "answer": 518,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 462,
+      "question": "Calculate simple interest on $3300 at 3% per year for 2 years.",
+      "answer": 198,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 463,
+      "question": "An item costs $25. If tax is 12%, what is the total cost?",
+      "answer": 28,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 464,
+      "question": "Calculate simple interest on $4098 at 10% per year for 4 years.",
+      "answer": 1639,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 465,
+      "question": "An item costs $312. If tax is 15%, what is the total cost?",
+      "answer": 358,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 466,
+      "question": "Calculate simple interest on $9580 at 7% per year for 3 years.",
+      "answer": 2011,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 467,
+      "question": "An item costs $343. If tax is 8%, what is the total cost?",
+      "answer": 370,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 468,
+      "question": "Calculate simple interest on $4086 at 5% per year for 2 years.",
+      "answer": 408,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 469,
+      "question": "An item costs $456. If tax is 6%, what is the total cost?",
+      "answer": 483,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 470,
+      "question": "Calculate simple interest on $7312 at 7% per year for 2 years.",
+      "answer": 1023,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 471,
+      "question": "An item costs $174. If tax is 6%, what is the total cost?",
+      "answer": 184,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 472,
+      "question": "Calculate simple interest on $2108 at 9% per year for 1 years.",
+      "answer": 189,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 473,
+      "question": "An item costs $131. If tax is 12%, what is the total cost?",
+      "answer": 146,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 474,
+      "question": "Calculate simple interest on $1351 at 4% per year for 5 years.",
+      "answer": 270,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 475,
+      "question": "An item costs $324. If tax is 9%, what is the total cost?",
+      "answer": 353,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 476,
+      "question": "Calculate simple interest on $1324 at 8% per year for 2 years.",
+      "answer": 211,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 477,
+      "question": "An item costs $47. If tax is 8%, what is the total cost?",
+      "answer": 50,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 478,
+      "question": "Calculate simple interest on $5533 at 6% per year for 4 years.",
+      "answer": 1327,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 479,
+      "question": "An item costs $51. If tax is 10%, what is the total cost?",
+      "answer": 56,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 480,
+      "question": "Calculate simple interest on $1691 at 9% per year for 3 years.",
+      "answer": 456,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 481,
+      "question": "An item costs $80. If tax is 6%, what is the total cost?",
+      "answer": 84,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 482,
+      "question": "Calculate simple interest on $3335 at 7% per year for 1 years.",
+      "answer": 233,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 483,
+      "question": "An item costs $158. If tax is 9%, what is the total cost?",
+      "answer": 172,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 484,
+      "question": "Calculate simple interest on $9843 at 5% per year for 4 years.",
+      "answer": 1968,
+      "type": "financial",
+      "subtype": "simple_interest",
+      "difficulty": "medium"
+    },
+    {
+      "id": 485,
+      "question": "An item costs $485. If tax is 12%, what is the total cost?",
+      "answer": 543,
+      "type": "financial",
+      "subtype": "tax_calculation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 486,
+      "question": "If an event starts at 11:00 AM and lasts for 3 hours, what time does it end?",
+      "answer": 14,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 487,
+      "question": "If someone was born in 1998, how old are they in 2025?",
+      "answer": 27,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 488,
+      "question": "If an event starts at 1:00 AM and lasts for 8 hours, what time does it end?",
+      "answer": 9,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 489,
+      "question": "If someone was born in 1992, how old are they in 2025?",
+      "answer": 33,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 490,
+      "question": "If an event starts at 10:00 AM and lasts for 6 hours, what time does it end?",
+      "answer": 16,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 491,
+      "question": "If someone was born in 1997, how old are they in 2025?",
+      "answer": 28,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 492,
+      "question": "If an event starts at 9:00 AM and lasts for 5 hours, what time does it end?",
+      "answer": 14,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 493,
+      "question": "If someone was born in 1997, how old are they in 2025?",
+      "answer": 28,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 494,
+      "question": "If an event starts at 3:00 AM and lasts for 4 hours, what time does it end?",
+      "answer": 7,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 495,
+      "question": "If someone was born in 2008, how old are they in 2025?",
+      "answer": 17,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 496,
+      "question": "If an event starts at 7:00 AM and lasts for 5 hours, what time does it end?",
+      "answer": 12,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 497,
+      "question": "If someone was born in 2002, how old are they in 2025?",
+      "answer": 23,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 498,
+      "question": "If an event starts at 7:00 AM and lasts for 7 hours, what time does it end?",
+      "answer": 14,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 499,
+      "question": "If someone was born in 1999, how old are they in 2025?",
+      "answer": 26,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 500,
+      "question": "If an event starts at 7:00 AM and lasts for 3 hours, what time does it end?",
+      "answer": 10,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 501,
+      "question": "If someone was born in 2000, how old are they in 2025?",
+      "answer": 25,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 502,
+      "question": "If an event starts at 10:00 AM and lasts for 8 hours, what time does it end?",
+      "answer": 18,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 503,
+      "question": "If someone was born in 2010, how old are they in 2025?",
+      "answer": 15,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 504,
+      "question": "If an event starts at 11:00 AM and lasts for 5 hours, what time does it end?",
+      "answer": 16,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 505,
+      "question": "If someone was born in 2002, how old are they in 2025?",
+      "answer": 23,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 506,
+      "question": "If an event starts at 8:00 AM and lasts for 5 hours, what time does it end?",
+      "answer": 13,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 507,
+      "question": "If someone was born in 2009, how old are they in 2025?",
+      "answer": 16,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 508,
+      "question": "If an event starts at 9:00 AM and lasts for 8 hours, what time does it end?",
+      "answer": 17,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 509,
+      "question": "If someone was born in 2000, how old are they in 2025?",
+      "answer": 25,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 510,
+      "question": "If an event starts at 3:00 AM and lasts for 7 hours, what time does it end?",
+      "answer": 10,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 511,
+      "question": "If someone was born in 2003, how old are they in 2025?",
+      "answer": 22,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 512,
+      "question": "If an event starts at 5:00 AM and lasts for 7 hours, what time does it end?",
+      "answer": 12,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 513,
+      "question": "If someone was born in 1998, how old are they in 2025?",
+      "answer": 27,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 514,
+      "question": "If an event starts at 11:00 AM and lasts for 2 hours, what time does it end?",
+      "answer": 13,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 515,
+      "question": "If someone was born in 2008, how old are they in 2025?",
+      "answer": 17,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 516,
+      "question": "If an event starts at 3:00 AM and lasts for 5 hours, what time does it end?",
+      "answer": 8,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 517,
+      "question": "If someone was born in 1990, how old are they in 2025?",
+      "answer": 35,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 518,
+      "question": "If an event starts at 8:00 AM and lasts for 2 hours, what time does it end?",
+      "answer": 10,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 519,
+      "question": "If someone was born in 1992, how old are they in 2025?",
+      "answer": 33,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 520,
+      "question": "If an event starts at 4:00 AM and lasts for 8 hours, what time does it end?",
+      "answer": 12,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 521,
+      "question": "If someone was born in 2004, how old are they in 2025?",
+      "answer": 21,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 522,
+      "question": "If an event starts at 6:00 AM and lasts for 5 hours, what time does it end?",
+      "answer": 11,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 523,
+      "question": "If someone was born in 1997, how old are they in 2025?",
+      "answer": 28,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 524,
+      "question": "If an event starts at 3:00 AM and lasts for 4 hours, what time does it end?",
+      "answer": 7,
+      "type": "time_calculation",
+      "subtype": "duration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 525,
+      "question": "If someone was born in 2001, how old are they in 2025?",
+      "answer": 24,
+      "type": "time_calculation",
+      "subtype": "age",
+      "difficulty": "easy"
+    },
+    {
+      "id": 526,
+      "question": "Convert 4 yards to feet.",
+      "answer": 12,
+      "type": "unit_conversion",
+      "subtype": "yards_to_feet",
+      "difficulty": "easy"
+    },
+    {
+      "id": 527,
+      "question": "Convert 10 yards to feet.",
+      "answer": 30,
+      "type": "unit_conversion",
+      "subtype": "yards_to_feet",
+      "difficulty": "easy"
+    },
+    {
+      "id": 528,
+      "question": "Convert 13 days to hours.",
+      "answer": 312,
+      "type": "unit_conversion",
+      "subtype": "days_to_hours",
+      "difficulty": "easy"
+    },
+    {
+      "id": 529,
+      "question": "Convert 18 pounds to ounces.",
+      "answer": 288,
+      "type": "unit_conversion",
+      "subtype": "pounds_to_ounces",
+      "difficulty": "easy"
+    },
+    {
+      "id": 530,
+      "question": "Convert 3 days to hours.",
+      "answer": 72,
+      "type": "unit_conversion",
+      "subtype": "days_to_hours",
+      "difficulty": "easy"
+    },
+    {
+      "id": 531,
+      "question": "Convert 15 pounds to ounces.",
+      "answer": 240,
+      "type": "unit_conversion",
+      "subtype": "pounds_to_ounces",
+      "difficulty": "easy"
+    },
+    {
+      "id": 532,
+      "question": "Convert 15 kilograms to grams.",
+      "answer": 15000,
+      "type": "unit_conversion",
+      "subtype": "kilograms_to_grams",
+      "difficulty": "easy"
+    },
+    {
+      "id": 533,
+      "question": "Convert 20 hours to minutes.",
+      "answer": 1200,
+      "type": "unit_conversion",
+      "subtype": "hours_to_minutes",
+      "difficulty": "easy"
+    },
+    {
+      "id": 534,
+      "question": "Convert 10 kilograms to grams.",
+      "answer": 10000,
+      "type": "unit_conversion",
+      "subtype": "kilograms_to_grams",
+      "difficulty": "easy"
+    },
+    {
+      "id": 535,
+      "question": "Convert 1 kilograms to grams.",
+      "answer": 1000,
+      "type": "unit_conversion",
+      "subtype": "kilograms_to_grams",
+      "difficulty": "easy"
+    },
+    {
+      "id": 536,
+      "question": "Convert 2 pounds to ounces.",
+      "answer": 32,
+      "type": "unit_conversion",
+      "subtype": "pounds_to_ounces",
+      "difficulty": "easy"
+    },
+    {
+      "id": 537,
+      "question": "Convert 8 yards to feet.",
+      "answer": 24,
+      "type": "unit_conversion",
+      "subtype": "yards_to_feet",
+      "difficulty": "easy"
+    },
+    {
+      "id": 538,
+      "question": "Convert 2 yards to feet.",
+      "answer": 6,
+      "type": "unit_conversion",
+      "subtype": "yards_to_feet",
+      "difficulty": "easy"
+    },
+    {
+      "id": 539,
+      "question": "Convert 11 gallons to quarts.",
+      "answer": 44,
+      "type": "unit_conversion",
+      "subtype": "gallons_to_quarts",
+      "difficulty": "easy"
+    },
+    {
+      "id": 540,
+      "question": "Convert 12 days to hours.",
+      "answer": 288,
+      "type": "unit_conversion",
+      "subtype": "days_to_hours",
+      "difficulty": "easy"
+    },
+    {
+      "id": 541,
+      "question": "Convert 10 meters to centimeters.",
+      "answer": 1000,
+      "type": "unit_conversion",
+      "subtype": "meters_to_centimeters",
+      "difficulty": "easy"
+    },
+    {
+      "id": 542,
+      "question": "Convert 11 kilograms to grams.",
+      "answer": 11000,
+      "type": "unit_conversion",
+      "subtype": "kilograms_to_grams",
+      "difficulty": "easy"
+    },
+    {
+      "id": 543,
+      "question": "Convert 2 pounds to ounces.",
+      "answer": 32,
+      "type": "unit_conversion",
+      "subtype": "pounds_to_ounces",
+      "difficulty": "easy"
+    },
+    {
+      "id": 544,
+      "question": "Convert 18 yards to feet.",
+      "answer": 54,
+      "type": "unit_conversion",
+      "subtype": "yards_to_feet",
+      "difficulty": "easy"
+    },
+    {
+      "id": 545,
+      "question": "Convert 20 feet to inches.",
+      "answer": 240,
+      "type": "unit_conversion",
+      "subtype": "feet_to_inches",
+      "difficulty": "easy"
+    },
+    {
+      "id": 546,
+      "question": "Find the average of these numbers: 40, 85, 37, 23, 29, 72",
+      "answer": 47,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 547,
+      "question": "Find the average of these numbers: 22, 21, 89, 37",
+      "answer": 42,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 548,
+      "question": "Find the average of these numbers: 83, 35, 63, 58",
+      "answer": 59,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 549,
+      "question": "Find the average of these numbers: 56, 75, 20",
+      "answer": 50,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 550,
+      "question": "Find the average of these numbers: 17, 16, 45, 91, 17",
+      "answer": 37,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 551,
+      "question": "Find the average of these numbers: 13, 87, 84, 58",
+      "answer": 60,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 552,
+      "question": "Find the average of these numbers: 21, 21, 15",
+      "answer": 19,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 553,
+      "question": "Find the average of these numbers: 12, 55, 67, 58, 83, 37",
+      "answer": 52,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 554,
+      "question": "Find the average of these numbers: 36, 29, 34, 75",
+      "answer": 43,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 555,
+      "question": "Find the average of these numbers: 37, 47, 77",
+      "answer": 53,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 556,
+      "question": "Find the average of these numbers: 54, 76, 82, 12, 69",
+      "answer": 58,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 557,
+      "question": "Find the average of these numbers: 92, 75, 92, 60, 25, 76",
+      "answer": 70,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 558,
+      "question": "Find the average of these numbers: 71, 19, 77",
+      "answer": 55,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 559,
+      "question": "Find the average of these numbers: 82, 78, 63, 74, 59, 52",
+      "answer": 68,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 560,
+      "question": "Find the average of these numbers: 55, 19, 89",
+      "answer": 54,
+      "type": "statistics",
+      "subtype": "mean",
+      "difficulty": "medium"
+    },
+    {
+      "id": 561,
+      "question": "How many factors does 92 have?",
+      "answer": 6,
+      "type": "number_theory",
+      "subtype": "factor_count",
+      "difficulty": "hard"
+    },
+    {
+      "id": 562,
+      "question": "How many factors does 28 have?",
+      "answer": 6,
+      "type": "number_theory",
+      "subtype": "factor_count",
+      "difficulty": "hard"
+    },
+    {
+      "id": 563,
+      "question": "How many factors does 76 have?",
+      "answer": 6,
+      "type": "number_theory",
+      "subtype": "factor_count",
+      "difficulty": "hard"
+    },
+    {
+      "id": 564,
+      "question": "How many factors does 32 have?",
+      "answer": 6,
+      "type": "number_theory",
+      "subtype": "factor_count",
+      "difficulty": "hard"
+    },
+    {
+      "id": 565,
+      "question": "How many factors does 23 have?",
+      "answer": 2,
+      "type": "number_theory",
+      "subtype": "factor_count",
+      "difficulty": "hard"
+    },
+    {
+      "id": 566,
+      "question": "How many factors does 45 have?",
+      "answer": 6,
+      "type": "number_theory",
+      "subtype": "factor_count",
+      "difficulty": "hard"
+    },
+    {
+      "id": 567,
+      "question": "How many factors does 53 have?",
+      "answer": 2,
+      "type": "number_theory",
+      "subtype": "factor_count",
+      "difficulty": "hard"
+    },
+    {
+      "id": 568,
+      "question": "How many factors does 90 have?",
+      "answer": 12,
+      "type": "number_theory",
+      "subtype": "factor_count",
+      "difficulty": "hard"
+    },
+    {
+      "id": 569,
+      "question": "How many factors does 37 have?",
+      "answer": 2,
+      "type": "number_theory",
+      "subtype": "factor_count",
+      "difficulty": "hard"
+    },
+    {
+      "id": 570,
+      "question": "How many factors does 81 have?",
+      "answer": 5,
+      "type": "number_theory",
+      "subtype": "factor_count",
+      "difficulty": "hard"
+    },
+    {
+      "id": 571,
+      "question": "What is 9 to the power of 2?",
+      "answer": 81,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 572,
+      "question": "What is 2 to the power of 4?",
+      "answer": 16,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 573,
+      "question": "What is 2 to the power of 3?",
+      "answer": 8,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 574,
+      "question": "What is 2 to the power of 3?",
+      "answer": 8,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 575,
+      "question": "What is 5 to the power of 2?",
+      "answer": 25,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 576,
+      "question": "What is 3 to the power of 2?",
+      "answer": 9,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 577,
+      "question": "What is 7 to the power of 4?",
+      "answer": 2401,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 578,
+      "question": "What is 2 to the power of 3?",
+      "answer": 8,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 579,
+      "question": "What is 5 to the power of 2?",
+      "answer": 25,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 580,
+      "question": "What is 9 to the power of 4?",
+      "answer": 6561,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 581,
+      "question": "What is 10 to the power of 3?",
+      "answer": 1000,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 582,
+      "question": "What is 4 to the power of 2?",
+      "answer": 16,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 583,
+      "question": "What is 5 to the power of 3?",
+      "answer": 125,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 584,
+      "question": "What is 2 to the power of 4?",
+      "answer": 16,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 585,
+      "question": "What is 7 to the power of 4?",
+      "answer": 2401,
+      "type": "exponents",
+      "subtype": "power",
+      "difficulty": "medium"
+    },
+    {
+      "id": 586,
+      "question": "What is the square root of 289?",
+      "answer": 17,
+      "type": "square_roots",
+      "subtype": "perfect_square",
+      "difficulty": "medium"
+    },
+    {
+      "id": 587,
+      "question": "What is the square root of 9?",
+      "answer": 3,
+      "type": "square_roots",
+      "subtype": "perfect_square",
+      "difficulty": "medium"
+    },
+    {
+      "id": 588,
+      "question": "What is the square root of 9?",
+      "answer": 3,
+      "type": "square_roots",
+      "subtype": "perfect_square",
+      "difficulty": "medium"
+    },
+    {
+      "id": 589,
+      "question": "What is the square root of 400?",
+      "answer": 20,
+      "type": "square_roots",
+      "subtype": "perfect_square",
+      "difficulty": "medium"
+    },
+    {
+      "id": 590,
+      "question": "What is the square root of 144?",
+      "answer": 12,
+      "type": "square_roots",
+      "subtype": "perfect_square",
+      "difficulty": "medium"
+    },
+    {
+      "id": 591,
+      "question": "What is the square root of 25?",
+      "answer": 5,
+      "type": "square_roots",
+      "subtype": "perfect_square",
+      "difficulty": "medium"
+    },
+    {
+      "id": 592,
+      "question": "What is the square root of 36?",
+      "answer": 6,
+      "type": "square_roots",
+      "subtype": "perfect_square",
+      "difficulty": "medium"
+    },
+    {
+      "id": 593,
+      "question": "What is the square root of 81?",
+      "answer": 9,
+      "type": "square_roots",
+      "subtype": "perfect_square",
+      "difficulty": "medium"
+    },
+    {
+      "id": 594,
+      "question": "What is the square root of 9?",
+      "answer": 3,
+      "type": "square_roots",
+      "subtype": "perfect_square",
+      "difficulty": "medium"
+    },
+    {
+      "id": 595,
+      "question": "What is the square root of 169?",
+      "answer": 13,
+      "type": "square_roots",
+      "subtype": "perfect_square",
+      "difficulty": "medium"
+    },
+    {
+      "id": 596,
+      "question": "What is 4/8 + 3/8? (Give answer as a whole number if possible, otherwise as a simplified fraction)",
+      "answer": "7/8",
+      "type": "fractions",
+      "subtype": "addition_same_denominator",
+      "difficulty": "medium"
+    },
+    {
+      "id": 597,
+      "question": "What is 6/8 + 1/8? (Give answer as a whole number if possible, otherwise as a simplified fraction)",
+      "answer": "7/8",
+      "type": "fractions",
+      "subtype": "addition_same_denominator",
+      "difficulty": "medium"
+    },
+    {
+      "id": 598,
+      "question": "What is 1/9 + 5/9? (Give answer as a whole number if possible, otherwise as a simplified fraction)",
+      "answer": "6/9",
+      "type": "fractions",
+      "subtype": "addition_same_denominator",
+      "difficulty": "medium"
+    },
+    {
+      "id": 599,
+      "question": "What is 6/10 + 1/10? (Give answer as a whole number if possible, otherwise as a simplified fraction)",
+      "answer": "7/10",
+      "type": "fractions",
+      "subtype": "addition_same_denominator",
+      "difficulty": "medium"
+    },
+    {
+      "id": 600,
+      "question": "A car travels 122 miles at 61 mph. How many hours does the journey take?",
+      "answer": 2,
+      "type": "physics",
+      "subtype": "distance_speed_time",
+      "difficulty": "medium"
+    }
+  ]
+}

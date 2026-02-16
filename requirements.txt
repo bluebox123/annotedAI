@@ -1,0 +1,23 @@
+streamlit==1.28.0
+python-dotenv==1.0.1
+PyPDF2==3.0.1
+sentence-transformers==2.5.1
+# faiss-cpu is optional. On Windows, we'll use NumPy fallback in code.
+# faiss-cpu==1.7.4
+requests==2.32.3
+PyMuPDF==1.23.0
+numpy==1.26.4
+pandas==2.1.4
+chromadb==0.4.15
+huggingface_hub==0.34.3
+transformers==4.55.0
+# torch is optional; install the correct wheel for your OS/Python using:
+#   pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision torchaudio
+# Mathematical computation libraries
+sympy==1.12
+scipy==1.11.4
+matplotlib==3.8.2
+regex==2023.10.3
+# Additional libraries for numerical mode
+plotly==5.17.0
+dataclasses-json==0.6.2

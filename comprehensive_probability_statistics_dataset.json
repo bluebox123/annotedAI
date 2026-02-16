@@ -1,0 +1,1417 @@
+{
+  "probability_statistics_numerical_questions": {
+    "descriptive_statistics": {
+      "measures_of_central_tendency": [
+        {
+          "id": 1,
+          "topic": "Arithmetic Mean",
+          "question": "Find the arithmetic mean of the marks: 85, 92, 78, 96, 87, 91, 83",
+          "data": [
+            85,
+            92,
+            78,
+            96,
+            87,
+            91,
+            83
+          ],
+          "solution": 87.43,
+          "formula": "Mean = \u03a3x/n"
+        },
+        {
+          "id": 2,
+          "topic": "Weighted Mean",
+          "question": "Calculate the weighted mean for values: 10, 15, 20, 25 with weights: 2, 3, 4, 1",
+          "values": [
+            10,
+            15,
+            20,
+            25
+          ],
+          "weights": [
+            2,
+            3,
+            4,
+            1
+          ],
+          "solution": 16.5,
+          "formula": "Weighted Mean = \u03a3(wx)/\u03a3w"
+        },
+        {
+          "id": 3,
+          "topic": "Median - Odd data",
+          "question": "Find the median of: 12, 8, 15, 20, 6, 18, 10, 14, 22",
+          "data": [
+            12,
+            8,
+            15,
+            20,
+            6,
+            18,
+            10,
+            14,
+            22
+          ],
+          "sorted_data": [
+            6,
+            8,
+            10,
+            12,
+            14,
+            15,
+            18,
+            20,
+            22
+          ],
+          "solution": 14,
+          "formula": "Median = middle value when n is odd"
+        },
+        {
+          "id": 4,
+          "topic": "Median - Even data",
+          "question": "Find the median of: 45, 52, 38, 47, 61, 39",
+          "data": [
+            45,
+            52,
+            38,
+            47,
+            61,
+            39
+          ],
+          "sorted_data": [
+            38,
+            39,
+            45,
+            47,
+            52,
+            61
+          ],
+          "solution": 46,
+          "formula": "Median = (n/2 + (n/2+1))/2 when n is even"
+        },
+        {
+          "id": 5,
+          "topic": "Mode",
+          "question": "Find the mode of: 3, 7, 5, 3, 9, 3, 8, 7, 3, 6",
+          "data": [
+            3,
+            7,
+            5,
+            3,
+            9,
+            3,
+            8,
+            7,
+            3,
+            6
+          ],
+          "solution": 3,
+          "formula": "Mode = most frequently occurring value"
+        },
+        {
+          "id": 6,
+          "topic": "Geometric Mean",
+          "question": "Calculate geometric mean of: 4, 9, 16, 25, 36",
+          "data": [
+            4,
+            9,
+            16,
+            25,
+            36
+          ],
+          "solution": 12.65,
+          "formula": "GM = (x1 \u00d7 x2 \u00d7 ... \u00d7 xn)^(1/n)"
+        },
+        {
+          "id": 7,
+          "topic": "Harmonic Mean",
+          "question": "Find harmonic mean of: 2, 4, 6, 8, 10",
+          "data": [
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "solution": 4.32,
+          "formula": "HM = n / \u03a3(1/xi)"
+        }
+      ],
+      "measures_of_dispersion": [
+        {
+          "id": 8,
+          "topic": "Range",
+          "question": "Calculate range for data: 25, 30, 35, 40, 45, 50, 55",
+          "data": [
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            55
+          ],
+          "solution": 30,
+          "formula": "Range = Maximum - Minimum"
+        },
+        {
+          "id": 9,
+          "topic": "Standard Deviation",
+          "question": "Find standard deviation for: 10, 12, 14, 16, 18",
+          "data": [
+            10,
+            12,
+            14,
+            16,
+            18
+          ],
+          "mean": 14,
+          "solution": 2.83,
+          "formula": "\u03c3 = \u221a[\u03a3(x-\u03bc)\u00b2/n]"
+        },
+        {
+          "id": 10,
+          "topic": "Variance",
+          "question": "Calculate variance for: 5, 8, 12, 15, 20",
+          "data": [
+            5,
+            8,
+            12,
+            15,
+            20
+          ],
+          "mean": 12,
+          "solution": 28,
+          "formula": "\u03c3\u00b2 = \u03a3(x-\u03bc)\u00b2/n"
+        },
+        {
+          "id": 11,
+          "topic": "Coefficient of Variation",
+          "question": "Find coefficient of variation for data with mean = 50 and SD = 8",
+          "mean": 50,
+          "standard_deviation": 8,
+          "solution": 16,
+          "formula": "CV = (\u03c3/\u03bc) \u00d7 100%"
+        },
+        {
+          "id": 12,
+          "topic": "Quartiles",
+          "question": "Find Q1, Q2, Q3 for: 15, 18, 22, 25, 30, 35, 40, 45, 50",
+          "data": [
+            15,
+            18,
+            22,
+            25,
+            30,
+            35,
+            40,
+            45,
+            50
+          ],
+          "q1": 22,
+          "q2": 30,
+          "q3": 42.5,
+          "formula": "Q1 = 25th percentile, Q2 = median, Q3 = 75th percentile"
+        }
+      ]
+    },
+    "probability_distributions": {
+      "binomial_distribution": [
+        {
+          "id": 13,
+          "topic": "Binomial Probability",
+          "question": "A coin is tossed 10 times. Find P(exactly 6 heads)",
+          "n": 10,
+          "p": 0.5,
+          "x": 6,
+          "solution": 0.205,
+          "formula": "P(X=x) = C(n,x) \u00d7 p^x \u00d7 (1-p)^(n-x)"
+        },
+        {
+          "id": 14,
+          "topic": "Binomial Mean and Variance",
+          "question": "For binomial distribution with n=20, p=0.3, find mean and variance",
+          "n": 20,
+          "p": 0.3,
+          "mean": 6,
+          "variance": 4.2,
+          "formula": "Mean = np, Variance = npq"
+        },
+        {
+          "id": 15,
+          "topic": "Binomial Cumulative",
+          "question": "In 8 trials with p=0.4, find P(X \u2264 3)",
+          "n": 8,
+          "p": 0.4,
+          "x_max": 3,
+          "solution": 0.594,
+          "formula": "P(X\u2264k) = \u03a3 C(n,x) \u00d7 p^x \u00d7 (1-p)^(n-x) for x=0 to k"
+        },
+        {
+          "id": 16,
+          "topic": "Defective Items",
+          "question": "5% of items are defective. In sample of 15, find P(exactly 2 defective)",
+          "n": 15,
+          "p": 0.05,
+          "x": 2,
+          "solution": 0.135,
+          "formula": "P(X=x) = C(n,x) \u00d7 p^x \u00d7 (1-p)^(n-x)"
+        }
+      ],
+      "poisson_distribution": [
+        {
+          "id": 17,
+          "topic": "Poisson Probability",
+          "question": "Average 3 calls per hour. Find P(exactly 5 calls in 1 hour)",
+          "lambda": 3,
+          "x": 5,
+          "solution": 0.101,
+          "formula": "P(X=x) = (\u03bb^x \u00d7 e^(-\u03bb))/x!"
+        },
+        {
+          "id": 18,
+          "topic": "Poisson Cumulative",
+          "question": "Mean = 2.5 accidents/day. Find P(X \u2264 2)",
+          "lambda": 2.5,
+          "x_max": 2,
+          "solution": 0.544,
+          "formula": "P(X\u2264k) = \u03a3 (\u03bb^x \u00d7 e^(-\u03bb))/x! for x=0 to k"
+        },
+        {
+          "id": 19,
+          "topic": "Poisson Parameters",
+          "question": "If \u03bb = 4, find mean, variance, and standard deviation",
+          "lambda": 4,
+          "mean": 4,
+          "variance": 4,
+          "standard_deviation": 2,
+          "formula": "For Poisson: Mean = Variance = \u03bb"
+        },
+        {
+          "id": 20,
+          "topic": "Poisson Approximation",
+          "question": "Use Poisson to approximate binomial with n=100, p=0.02",
+          "n": 100,
+          "p": 0.02,
+          "lambda": 2,
+          "approximation_condition": "n large, p small, np moderate",
+          "formula": "\u03bb = np for approximation"
+        }
+      ],
+      "normal_distribution": [
+        {
+          "id": 21,
+          "topic": "Standard Normal",
+          "question": "Find P(Z < 1.65) for standard normal distribution",
+          "z_value": 1.65,
+          "solution": 0.9505,
+          "formula": "Use standard normal table"
+        },
+        {
+          "id": 22,
+          "topic": "Normal Probability",
+          "question": "X ~ N(50, 10\u00b2). Find P(X < 65)",
+          "mean": 50,
+          "std_dev": 10,
+          "x_value": 65,
+          "z_score": 1.5,
+          "solution": 0.9332,
+          "formula": "Z = (X - \u03bc)/\u03c3"
+        },
+        {
+          "id": 23,
+          "topic": "Normal Between Values",
+          "question": "X ~ N(100, 15\u00b2). Find P(85 < X < 115)",
+          "mean": 100,
+          "std_dev": 15,
+          "x1": 85,
+          "x2": 115,
+          "z1": -1.0,
+          "z2": 1.0,
+          "solution": 0.6826,
+          "formula": "P(a < X < b) = P(Z < z2) - P(Z < z1)"
+        },
+        {
+          "id": 24,
+          "topic": "Normal Percentiles",
+          "question": "Find 90th percentile for N(75, 12\u00b2)",
+          "mean": 75,
+          "std_dev": 12,
+          "percentile": 90,
+          "z_90": 1.28,
+          "solution": 90.36,
+          "formula": "X = \u03bc + z\u00d7\u03c3"
+        }
+      ],
+      "exponential_distribution": [
+        {
+          "id": 25,
+          "topic": "Exponential Probability",
+          "question": "\u03bb = 0.5. Find P(X > 2)",
+          "lambda": 0.5,
+          "x_value": 2,
+          "solution": 0.368,
+          "formula": "P(X > x) = e^(-\u03bbx)"
+        },
+        {
+          "id": 26,
+          "topic": "Exponential Mean",
+          "question": "If mean time = 10 minutes, find \u03bb and P(X < 5)",
+          "mean": 10,
+          "lambda": 0.1,
+          "x_value": 5,
+          "solution": 0.394,
+          "formula": "Mean = 1/\u03bb, P(X < x) = 1 - e^(-\u03bbx)"
+        }
+      ],
+      "gamma_distribution": [
+        {
+          "id": 27,
+          "topic": "Gamma Mean and Variance",
+          "question": "For Gamma(\u03b1=3, \u03b2=2), find mean and variance",
+          "alpha": 3,
+          "beta": 2,
+          "mean": 6,
+          "variance": 12,
+          "formula": "Mean = \u03b1\u03b2, Variance = \u03b1\u03b2\u00b2"
+        }
+      ]
+    },
+    "hypothesis_testing": {
+      "one_sample_tests": [
+        {
+          "id": 28,
+          "topic": "Z-test for Mean",
+          "question": "Sample: n=36, x\u0304=52, \u03c3=8. Test H0: \u03bc=50 vs H1: \u03bc\u226050 at \u03b1=0.05",
+          "n": 36,
+          "sample_mean": 52,
+          "population_std": 8,
+          "null_mean": 50,
+          "alpha": 0.05,
+          "z_statistic": 1.5,
+          "critical_values": [
+            -1.96,
+            1.96
+          ],
+          "decision": "Fail to reject H0",
+          "formula": "z = (x\u0304 - \u03bc)/(\u03c3/\u221an)"
+        },
+        {
+          "id": 29,
+          "topic": "t-test for Mean",
+          "question": "Sample: n=16, x\u0304=25, s=4. Test H0: \u03bc=23 vs H1: \u03bc>23 at \u03b1=0.05",
+          "n": 16,
+          "sample_mean": 25,
+          "sample_std": 4,
+          "null_mean": 23,
+          "alpha": 0.05,
+          "df": 15,
+          "t_statistic": 2.0,
+          "critical_value": 1.753,
+          "decision": "Reject H0",
+          "formula": "t = (x\u0304 - \u03bc)/(s/\u221an)"
+        },
+        {
+          "id": 30,
+          "topic": "Proportion Test",
+          "question": "Sample: n=200, x=85. Test H0: p=0.4 vs H1: p\u22600.4 at \u03b1=0.05",
+          "n": 200,
+          "x": 85,
+          "sample_proportion": 0.425,
+          "null_proportion": 0.4,
+          "alpha": 0.05,
+          "z_statistic": 0.72,
+          "critical_values": [
+            -1.96,
+            1.96
+          ],
+          "decision": "Fail to reject H0",
+          "formula": "z = (p\u0302 - p)/\u221a(pq/n)"
+        }
+      ],
+      "two_sample_tests": [
+        {
+          "id": 31,
+          "topic": "Two Sample t-test",
+          "question": "Group1: n1=20, x\u03041=75, s1=8. Group2: n2=25, x\u03042=72, s2=10. Test equality of means",
+          "n1": 20,
+          "n2": 25,
+          "mean1": 75,
+          "mean2": 72,
+          "std1": 8,
+          "std2": 10,
+          "pooled_std": 9.15,
+          "t_statistic": 1.09,
+          "df": 43,
+          "decision": "Fail to reject H0",
+          "formula": "t = (x\u03041 - x\u03042)/sp\u221a(1/n1 + 1/n2)"
+        },
+        {
+          "id": 32,
+          "topic": "F-test for Variances",
+          "question": "Sample1: s1\u00b2=64, n1=15. Sample2: s2\u00b2=36, n2=20. Test equality of variances",
+          "s1_squared": 64,
+          "s2_squared": 36,
+          "n1": 15,
+          "n2": 20,
+          "f_statistic": 1.78,
+          "df1": 14,
+          "df2": 19,
+          "critical_value": 2.33,
+          "decision": "Fail to reject H0",
+          "formula": "F = s1\u00b2/s2\u00b2"
+        }
+      ],
+      "chi_square_tests": [
+        {
+          "id": 33,
+          "topic": "Goodness of Fit",
+          "question": "Observed: [20, 15, 25, 40]. Expected: [25, 25, 25, 25]. Test goodness of fit",
+          "observed": [
+            20,
+            15,
+            25,
+            40
+          ],
+          "expected": [
+            25,
+            25,
+            25,
+            25
+          ],
+          "chi_square": 12,
+          "df": 3,
+          "critical_value": 7.815,
+          "decision": "Reject H0",
+          "formula": "\u03c7\u00b2 = \u03a3(O-E)\u00b2/E"
+        },
+        {
+          "id": 34,
+          "topic": "Independence Test",
+          "question": "2x2 contingency table: [[30,20],[15,35]]. Test independence",
+          "observed_matrix": [
+            [
+              30,
+              20
+            ],
+            [
+              15,
+              35
+            ]
+          ],
+          "chi_square": 8.33,
+          "df": 1,
+          "critical_value": 3.841,
+          "decision": "Reject H0",
+          "formula": "\u03c7\u00b2 = \u03a3(O-E)\u00b2/E for all cells"
+        }
+      ]
+    },
+    "correlation_and_regression": [
+      {
+        "id": 35,
+        "topic": "Correlation Coefficient",
+        "question": "X: [1,2,3,4,5], Y: [2,4,6,8,10]. Calculate correlation coefficient",
+        "x_values": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "y_values": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "correlation": 1.0,
+        "formula": "r = \u03a3(x-x\u0304)(y-\u0233)/\u221a[\u03a3(x-x\u0304)\u00b2\u03a3(y-\u0233)\u00b2]"
+      },
+      {
+        "id": 36,
+        "topic": "Linear Regression",
+        "question": "X: [1,2,3,4], Y: [3,5,7,9]. Find regression equation Y = a + bX",
+        "x_values": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "y_values": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "slope": 2,
+        "intercept": 1,
+        "equation": "Y = 1 + 2X",
+        "formula": "b = \u03a3(x-x\u0304)(y-\u0233)/\u03a3(x-x\u0304)\u00b2, a = \u0233 - bx\u0304"
+      },
+      {
+        "id": 37,
+        "topic": "Coefficient of Determination",
+        "question": "If r = 0.8, find coefficient of determination",
+        "correlation": 0.8,
+        "r_squared": 0.64,
+        "interpretation": "64% of variance explained",
+        "formula": "r\u00b2 = coefficient of determination"
+      }
+    ],
+    "analysis_of_variance": [
+      {
+        "id": 38,
+        "topic": "One-way ANOVA",
+        "question": "Three groups: G1[5,7,9], G2[6,8,10], G3[4,6,8]. Test equality of means",
+        "group1": [
+          5,
+          7,
+          9
+        ],
+        "group2": [
+          6,
+          8,
+          10
+        ],
+        "group3": [
+          4,
+          6,
+          8
+        ],
+        "f_statistic": 2.0,
+        "df_between": 2,
+        "df_within": 6,
+        "critical_value": 5.14,
+        "decision": "Fail to reject H0",
+        "formula": "F = MSB/MSW"
+      }
+    ],
+    "reliability_theory": [
+      {
+        "id": 39,
+        "topic": "Reliability Function",
+        "question": "Exponential failure time with \u03bb=0.01. Find reliability for t=100",
+        "lambda": 0.01,
+        "time": 100,
+        "reliability": 0.368,
+        "formula": "R(t) = e^(-\u03bbt)"
+      },
+      {
+        "id": 40,
+        "topic": "Series System",
+        "question": "Two components with R1=0.9, R2=0.8. Find system reliability",
+        "r1": 0.9,
+        "r2": 0.8,
+        "system_reliability": 0.72,
+        "formula": "Rs = R1 \u00d7 R2 for series"
+      },
+      {
+        "id": 41,
+        "topic": "Parallel System",
+        "question": "Two components with R1=0.9, R2=0.8. Find parallel system reliability",
+        "r1": 0.9,
+        "r2": 0.8,
+        "system_reliability": 0.98,
+        "formula": "Rp = 1 - (1-R1)(1-R2) for parallel"
+      },
+      {
+        "id": 42,
+        "topic": "MTBF Calculation",
+        "question": "Component fails with rate \u03bb=0.005/hour. Find MTBF",
+        "failure_rate": 0.005,
+        "mtbf": 200,
+        "formula": "MTBF = 1/\u03bb"
+      }
+    ],
+    "advanced_topics": [
+      {
+        "id": 43,
+        "topic": "Confidence Interval - Mean",
+        "question": "n=25, x\u0304=50, s=8. Find 95% CI for mean",
+        "n": 25,
+        "sample_mean": 50,
+        "sample_std": 8,
+        "confidence_level": 0.95,
+        "t_value": 2.064,
+        "margin_error": 3.3,
+        "ci_lower": 46.7,
+        "ci_upper": 53.3,
+        "formula": "CI = x\u0304 \u00b1 t(\u03b1/2,df) \u00d7 s/\u221an"
+      },
+      {
+        "id": 44,
+        "topic": "Confidence Interval - Proportion",
+        "question": "n=400, x=160. Find 99% CI for proportion",
+        "n": 400,
+        "x": 160,
+        "sample_proportion": 0.4,
+        "confidence_level": 0.99,
+        "z_value": 2.576,
+        "margin_error": 0.063,
+        "ci_lower": 0.337,
+        "ci_upper": 0.463,
+        "formula": "CI = p\u0302 \u00b1 z(\u03b1/2) \u00d7 \u221a(p\u0302q\u0302/n)"
+      },
+      {
+        "id": 45,
+        "topic": "Sample Size - Mean",
+        "question": "Find sample size for \u03bc estimation with E=2, \u03c3=10, 95% confidence",
+        "margin_error": 2,
+        "population_std": 10,
+        "confidence_level": 0.95,
+        "z_value": 1.96,
+        "sample_size": 97,
+        "formula": "n = (z\u03c3/E)\u00b2"
+      },
+      {
+        "id": 46,
+        "topic": "Sample Size - Proportion",
+        "question": "Find sample size for p estimation with E=0.03, 90% confidence, p\u0302=0.5",
+        "margin_error": 0.03,
+        "confidence_level": 0.9,
+        "z_value": 1.645,
+        "estimated_proportion": 0.5,
+        "sample_size": 751,
+        "formula": "n = (z\u00b2pq)/E\u00b2"
+      },
+      {
+        "id": 47,
+        "topic": "Central Limit Theorem",
+        "question": "Population: \u03bc=100, \u03c3=20. For n=64 samples, find P(X\u0304 < 105)",
+        "population_mean": 100,
+        "population_std": 20,
+        "sample_size": 64,
+        "sampling_std": 2.5,
+        "x_bar": 105,
+        "z_score": 2.0,
+        "probability": 0.9772,
+        "formula": "\u03c3x\u0304 = \u03c3/\u221an, Z = (X\u0304 - \u03bc)/\u03c3x\u0304"
+      },
+      {
+        "id": 48,
+        "topic": "Power of Test",
+        "question": "H0: \u03bc=50, H1: \u03bc=52, \u03c3=8, n=64, \u03b1=0.05. Find power when \u03bc=52",
+        "null_mean": 50,
+        "alternative_mean": 52,
+        "population_std": 8,
+        "sample_size": 64,
+        "alpha": 0.05,
+        "critical_value": 51.96,
+        "power": 0.52,
+        "formula": "Power = P(reject H0 | H1 true)"
+      },
+      {
+        "id": 49,
+        "topic": "Type II Error",
+        "question": "Calculate \u03b2 for above test",
+        "null_mean": 50,
+        "alternative_mean": 52,
+        "critical_value": 51.96,
+        "beta": 0.48,
+        "formula": "\u03b2 = P(accept H0 | H1 true)"
+      },
+      {
+        "id": 50,
+        "topic": "Multiple Regression",
+        "question": "Y = 10 + 2X1 + 3X2. Predict Y when X1=5, X2=4",
+        "intercept": 10,
+        "coefficient_x1": 2,
+        "coefficient_x2": 3,
+        "x1_value": 5,
+        "x2_value": 4,
+        "predicted_y": 32,
+        "formula": "Y = \u03b20 + \u03b21X1 + \u03b22X2"
+      }
+    ],
+    "module_1_descriptive_statistics": {
+      "central_tendency": [
+        {
+          "id": 51,
+          "topic": "Grouped Data Mean",
+          "question": "Find mean for grouped data: Class intervals [0-10, 10-20, 20-30, 30-40] with frequencies [5, 12, 25, 8]",
+          "class_intervals": [
+            "0-10",
+            "10-20",
+            "20-30",
+            "30-40"
+          ],
+          "frequencies": [
+            5,
+            12,
+            25,
+            8
+          ],
+          "midpoints": [
+            5,
+            15,
+            25,
+            35
+          ],
+          "solution": 22.5,
+          "formula": "Mean = \u03a3(f\u00d7x)/\u03a3f"
+        },
+        {
+          "id": 52,
+          "topic": "Combined Mean",
+          "question": "Group A: n1=30, mean=40. Group B: n2=20, mean=60. Find combined mean",
+          "n1": 30,
+          "mean1": 40,
+          "n2": 20,
+          "mean2": 60,
+          "combined_mean": 48,
+          "formula": "Combined mean = (n1\u00d7m1 + n2\u00d7m2)/(n1+n2)"
+        },
+        {
+          "id": 53,
+          "topic": "Median from Grouped Data",
+          "question": "Find median: Classes [0-20, 20-40, 40-60, 60-80] with frequencies [8, 15, 12, 5]",
+          "classes": [
+            "0-20",
+            "20-40",
+            "40-60",
+            "60-80"
+          ],
+          "frequencies": [
+            8,
+            15,
+            12,
+            5
+          ],
+          "cumulative_frequencies": [
+            8,
+            23,
+            35,
+            40
+          ],
+          "median_class": "20-40",
+          "solution": 36.67,
+          "formula": "Median = L + ((n/2 - CF)/f) \u00d7 h"
+        }
+      ],
+      "dispersion": [
+        {
+          "id": 54,
+          "topic": "Mean Deviation",
+          "question": "Find mean deviation about mean for: 5, 7, 9, 11, 13, 15",
+          "data": [
+            5,
+            7,
+            9,
+            11,
+            13,
+            15
+          ],
+          "mean": 10,
+          "deviations": [
+            5,
+            3,
+            1,
+            1,
+            3,
+            5
+          ],
+          "mean_deviation": 3,
+          "formula": "MD = \u03a3|x-x\u0304|/n"
+        },
+        {
+          "id": 55,
+          "topic": "Quartile Deviation",
+          "question": "For data [2, 4, 6, 8, 10, 12, 14, 16, 18, 20], find quartile deviation",
+          "data": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ],
+          "q1": 5,
+          "q3": 15,
+          "quartile_deviation": 5,
+          "formula": "QD = (Q3 - Q1)/2"
+        }
+      ],
+      "moments": [
+        {
+          "id": 56,
+          "topic": "Skewness",
+          "question": "Data has mean=50, median=45, SD=10. Find Pearson's coefficient of skewness",
+          "mean": 50,
+          "median": 45,
+          "std_dev": 10,
+          "skewness": 0.5,
+          "formula": "Skewness = 3(Mean - Median)/SD"
+        },
+        {
+          "id": 57,
+          "topic": "Kurtosis",
+          "question": "Calculate \u03b22 if fourth moment \u03bc4=81 and variance \u03c3\u00b2=9",
+          "fourth_moment": 81,
+          "variance": 9,
+          "beta2": 1,
+          "kurtosis": -2,
+          "formula": "\u03b22 = \u03bc4/\u03c3\u2074, Kurtosis = \u03b22 - 3"
+        }
+      ]
+    },
+    "module_2_random_variables": [
+      {
+        "id": 58,
+        "topic": "Discrete PMF",
+        "question": "X takes values 1,2,3 with probabilities 0.2, 0.5, 0.3. Find E(X) and Var(X)",
+        "values": [
+          1,
+          2,
+          3
+        ],
+        "probabilities": [
+          0.2,
+          0.5,
+          0.3
+        ],
+        "expected_value": 2.1,
+        "variance": 0.49,
+        "formula": "E(X) = \u03a3x\u00d7P(x), Var(X) = E(X\u00b2) - [E(X)]\u00b2"
+      },
+      {
+        "id": 59,
+        "topic": "Joint Distribution",
+        "question": "Joint PMF: P(X=1,Y=1)=0.2, P(X=1,Y=2)=0.3, P(X=2,Y=1)=0.25, P(X=2,Y=2)=0.25. Find marginal distributions",
+        "joint_pmf": {
+          "(1,1)": 0.2,
+          "(1,2)": 0.3,
+          "(2,1)": 0.25,
+          "(2,2)": 0.25
+        },
+        "marginal_x": {
+          "1": 0.5,
+          "2": 0.5
+        },
+        "marginal_y": {
+          "1": 0.45,
+          "2": 0.55
+        },
+        "formula": "P(X=x) = \u03a3y P(X=x,Y=y)"
+      },
+      {
+        "id": 60,
+        "topic": "Covariance",
+        "question": "X: [1,2,3], Y: [2,5,8]. Find Cov(X,Y)",
+        "x_values": [
+          1,
+          2,
+          3
+        ],
+        "y_values": [
+          2,
+          5,
+          8
+        ],
+        "mean_x": 2,
+        "mean_y": 5,
+        "covariance": 3,
+        "formula": "Cov(X,Y) = E(XY) - E(X)E(Y)"
+      }
+    ],
+    "module_3_correlation_regression": [
+      {
+        "id": 61,
+        "topic": "Rank Correlation",
+        "question": "Ranks X: [1,2,3,4,5], Ranks Y: [2,1,4,3,5]. Find Spearman's correlation",
+        "ranks_x": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ranks_y": [
+          2,
+          1,
+          4,
+          3,
+          5
+        ],
+        "d_squared_sum": 4,
+        "n": 5,
+        "spearman_r": 0.8,
+        "formula": "rs = 1 - (6\u03a3d\u00b2)/(n\u00b3-n)"
+      },
+      {
+        "id": 62,
+        "topic": "Multiple Correlation",
+        "question": "r12=0.6, r13=0.7, r23=0.8. Find R1.23",
+        "r12": 0.6,
+        "r13": 0.7,
+        "r23": 0.8,
+        "multiple_r": 0.775,
+        "formula": "R1.23\u00b2 = (r12\u00b2 + r13\u00b2 - 2r12\u00d7r13\u00d7r23)/(1 - r23\u00b2)"
+      },
+      {
+        "id": 63,
+        "topic": "Partial Correlation",
+        "question": "r12=0.8, r13=0.6, r23=0.5. Find r12.3",
+        "r12": 0.8,
+        "r13": 0.6,
+        "r23": 0.5,
+        "partial_r": 0.658,
+        "formula": "r12.3 = (r12 - r13\u00d7r23)/\u221a[(1-r13\u00b2)(1-r23\u00b2)]"
+      }
+    ],
+    "module_4_probability_distributions": {
+      "binomial_advanced": [
+        {
+          "id": 64,
+          "topic": "Binomial MGF",
+          "question": "For B(n=5, p=0.3), find MGF at t=0.1",
+          "n": 5,
+          "p": 0.3,
+          "t": 0.1,
+          "mgf": 1.116,
+          "formula": "MGF = (q + pe^t)^n"
+        },
+        {
+          "id": 65,
+          "topic": "Normal Approximation to Binomial",
+          "question": "B(n=100, p=0.4). Use normal approximation to find P(35 \u2264 X \u2264 45)",
+          "n": 100,
+          "p": 0.4,
+          "mean": 40,
+          "variance": 24,
+          "continuity_correction": "\u00b10.5",
+          "z1": -1.12,
+          "z2": 1.12,
+          "probability": 0.737,
+          "formula": "Use continuity correction for discrete to continuous"
+        }
+      ],
+      "poisson_advanced": [
+        {
+          "id": 66,
+          "topic": "Poisson Sum",
+          "question": "X ~ Poisson(3), Y ~ Poisson(5). Find distribution of X+Y",
+          "lambda_x": 3,
+          "lambda_y": 5,
+          "sum_lambda": 8,
+          "distribution": "Poisson(8)",
+          "formula": "Sum of independent Poisson variables is Poisson"
+        }
+      ],
+      "normal_advanced": [
+        {
+          "id": 67,
+          "topic": "Normal Linear Combination",
+          "question": "X ~ N(10,4), Y ~ N(15,9). Find P(X + Y > 30) if independent",
+          "mean_x": 10,
+          "var_x": 4,
+          "mean_y": 15,
+          "var_y": 9,
+          "sum_mean": 25,
+          "sum_variance": 13,
+          "z_score": 1.39,
+          "probability": 0.082,
+          "formula": "X+Y ~ N(\u03bcx+\u03bcy, \u03c3x\u00b2+\u03c3y\u00b2) for independent X,Y"
+        }
+      ],
+      "weibull": [
+        {
+          "id": 68,
+          "topic": "Weibull Distribution",
+          "question": "Weibull with \u03b2=2, \u03b7=100. Find reliability at t=50",
+          "beta": 2,
+          "eta": 100,
+          "time": 50,
+          "reliability": 0.779,
+          "formula": "R(t) = exp(-(t/\u03b7)^\u03b2)"
+        }
+      ]
+    },
+    "module_5_hypothesis_testing_large": [
+      {
+        "id": 69,
+        "topic": "Two Proportion Test",
+        "question": "Group1: n1=200, x1=50. Group2: n2=150, x2=30. Test equality of proportions",
+        "n1": 200,
+        "x1": 50,
+        "n2": 150,
+        "x2": 30,
+        "p1": 0.25,
+        "p2": 0.2,
+        "pooled_p": 0.229,
+        "z_statistic": 1.12,
+        "decision": "Fail to reject H0",
+        "formula": "z = (p1-p2)/\u221a[p\u0302(1-p\u0302)(1/n1+1/n2)]"
+      },
+      {
+        "id": 70,
+        "topic": "Power Calculation",
+        "question": "H0: \u03bc=100, H1: \u03bc=105, \u03c3=15, n=36, \u03b1=0.05. Find power",
+        "null_mean": 100,
+        "alt_mean": 105,
+        "sigma": 15,
+        "n": 36,
+        "alpha": 0.05,
+        "critical_value": 104.9,
+        "power": 0.508,
+        "formula": "Power = P(reject H0 | H1 true)"
+      }
+    ],
+    "module_6_hypothesis_testing_small": [
+      {
+        "id": 71,
+        "topic": "Paired t-test",
+        "question": "Before: [85,90,88,92,87]. After: [89,93,91,95,90]. Test if treatment effective",
+        "before": [
+          85,
+          90,
+          88,
+          92,
+          87
+        ],
+        "after": [
+          89,
+          93,
+          91,
+          95,
+          90
+        ],
+        "differences": [
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        "mean_diff": 3.2,
+        "std_diff": 0.45,
+        "t_statistic": 15.9,
+        "df": 4,
+        "decision": "Reject H0",
+        "formula": "t = d\u0304/(sd/\u221an)"
+      },
+      {
+        "id": 72,
+        "topic": "Chi-Square Variance Test",
+        "question": "Sample: n=25, s\u00b2=144. Test H0: \u03c3\u00b2=100 vs H1: \u03c3\u00b2\u2260100",
+        "n": 25,
+        "sample_variance": 144,
+        "null_variance": 100,
+        "chi_square": 34.56,
+        "df": 24,
+        "critical_values": [
+          12.4,
+          39.4
+        ],
+        "decision": "Fail to reject H0",
+        "formula": "\u03c7\u00b2 = (n-1)s\u00b2/\u03c3\u00b2"
+      },
+      {
+        "id": 73,
+        "topic": "ANOVA F-test",
+        "question": "SSB=150, SSW=300, k=3 groups, n=30 total. Test equality of means",
+        "ssb": 150,
+        "ssw": 300,
+        "k": 3,
+        "n": 30,
+        "msb": 75,
+        "msw": 11.11,
+        "f_statistic": 6.75,
+        "df1": 2,
+        "df2": 27,
+        "critical_value": 3.35,
+        "decision": "Reject H0",
+        "formula": "F = MSB/MSW"
+      }
+    ],
+    "module_7_reliability": [
+      {
+        "id": 74,
+        "topic": "Hazard Rate",
+        "question": "Weibull with \u03b2=1.5, \u03b7=1000. Find hazard rate at t=500",
+        "beta": 1.5,
+        "eta": 1000,
+        "time": 500,
+        "hazard_rate": 0.00053,
+        "formula": "h(t) = (\u03b2/\u03b7)(t/\u03b7)^(\u03b2-1)"
+      },
+      {
+        "id": 75,
+        "topic": "System Reliability - Complex",
+        "question": "Two parallel subsystems in series. Each subsystem has components with R=0.8. Find system reliability",
+        "component_reliability": 0.8,
+        "subsystem_reliability": 0.96,
+        "system_reliability": 0.922,
+        "formula": "Complex system using parallel and series formulas"
+      },
+      {
+        "id": 76,
+        "topic": "Availability",
+        "question": "MTBF=200 hours, MTTR=5 hours. Find steady-state availability",
+        "mtbf": 200,
+        "mttr": 5,
+        "availability": 0.976,
+        "formula": "A = MTBF/(MTBF + MTTR)"
+      },
+      {
+        "id": 77,
+        "topic": "Reliability Growth",
+        "question": "Initial reliability R0=0.6. After improvement, failures reduced by 40%. Find new reliability",
+        "initial_reliability": 0.6,
+        "failure_reduction": 0.4,
+        "new_reliability": 0.76,
+        "formula": "Rnew = 1 - (1-R0)\u00d7(1-improvement)"
+      }
+    ],
+    "comprehensive_problems": [
+      {
+        "id": 78,
+        "topic": "Quality Control",
+        "question": "Process has \u03bc=50, \u03c3=3. Control limits at \u00b13\u03c3. Sample n=9, x\u0304=52. Is process in control?",
+        "process_mean": 50,
+        "process_std": 3,
+        "sample_size": 9,
+        "sample_mean": 52,
+        "control_limits": [
+          47,
+          53
+        ],
+        "sample_std_error": 1,
+        "z_score": 2,
+        "decision": "In control",
+        "formula": "Control limits = \u03bc \u00b1 3\u03c3/\u221an"
+      },
+      {
+        "id": 79,
+        "topic": "Design of Experiments",
+        "question": "2\u00b3 factorial design. Factor effects: A=5, B=3, AB=2. Estimate main effect of A",
+        "factor_a_effect": 5,
+        "factor_b_effect": 3,
+        "interaction_ab": 2,
+        "main_effect_a": 5,
+        "significance": "Compare with standard error",
+        "formula": "Main effect = (High level mean - Low level mean)/2"
+      },
+      {
+        "id": 80,
+        "topic": "Life Testing",
+        "question": "10 items tested. Failure times: [100,150,200,250,300,350,400,450,500,550]. Fit exponential distribution",
+        "failure_times": [
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450,
+          500,
+          550
+        ],
+        "mean_time": 325,
+        "lambda_estimate": 0.00308,
+        "ks_statistic": 0.15,
+        "goodness_of_fit": "Good fit",
+        "formula": "\u03bb\u0302 = 1/x\u0304 for exponential"
+      }
+    ],
+    "additional_advanced_problems": [
+      {
+        "id": 81,
+        "topic": "Beta Distribution",
+        "question": "For Beta(α=2, β=3), find mean and variance",
+        "alpha": 2,
+        "beta": 3,
+        "mean": 0.4,
+        "variance": 0.048,
+        "formula": "Mean = α/(α+β), Variance = αβ/[(α+β)²(α+β+1)]"
+      },
+      {
+        "id": 82,
+        "topic": "Log-Normal Distribution", 
+        "question": "If ln(X) ~ N(2, 0.5²), find E[X] and Var[X]",
+        "mu": 2,
+        "sigma": 0.5,
+        "mean": 8.96,
+        "variance": 85.1,
+        "formula": "E[X] = e^(μ+σ²/2), Var[X] = e^(2μ+σ²)(e^σ² - 1)"
+      },
+      {
+        "id": 83,
+        "topic": "Hypergeometric Distribution",
+        "question": "Population N=50, K=20 successes. Sample n=10. Find P(X=3)",
+        "N": 50,
+        "K": 20,
+        "n": 10,
+        "x": 3,
+        "solution": 0.196,
+        "formula": "P(X=x) = C(K,x)C(N-K,n-x)/C(N,n)"
+      },
+      {
+        "id": 84,
+        "topic": "Negative Binomial",
+        "question": "Find probability of 5th success on 8th trial with p=0.6",
+        "r": 5,
+        "trial": 8,
+        "p": 0.6,
+        "solution": 0.124,
+        "formula": "P(X=k) = C(k-1,r-1) × p^r × (1-p)^(k-r)"
+      },
+      {
+        "id": 85,
+        "topic": "Geometric Distribution",
+        "question": "First success probability p=0.3. Find P(X=4)",
+        "p": 0.3,
+        "x": 4,
+        "solution": 0.103,
+        "formula": "P(X=x) = (1-p)^(x-1) × p"
+      },
+      {
+        "id": 86,
+        "topic": "Uniform Distribution",
+        "question": "X ~ Uniform(5, 15). Find P(7 < X < 12)",
+        "a": 5,
+        "b": 15,
+        "lower": 7,
+        "upper": 12,
+        "solution": 0.5,
+        "formula": "P(a < X < b) = (b-a)/(β-α)"
+      },
+      {
+        "id": 87,
+        "topic": "Chi-Square Distribution",
+        "question": "χ² with df=10. Find P(χ² > 18.31)",
+        "df": 10,
+        "critical_value": 18.31,
+        "solution": 0.05,
+        "formula": "Use chi-square table with degrees of freedom"
+      },
+      {
+        "id": 88,
+        "topic": "F-Distribution",
+        "question": "F(5,10) distribution. Find 95th percentile",
+        "df1": 5,
+        "df2": 10,
+        "percentile": 95,
+        "solution": 3.33,
+        "formula": "Use F-table with df1 and df2"
+      },
+      {
+        "id": 89,
+        "topic": "Multiple Regression",
+        "question": "Y = 5 + 2X₁ - 3X₂ + 4X₃. Find R² if SSE=100, SST=400",
+        "sse": 100,
+        "sst": 400,
+        "r_squared": 0.75,
+        "formula": "R² = 1 - SSE/SST"
+      },
+      {
+        "id": 90,
+        "topic": "ANOVA - Two-Way",
+        "question": "Two-way ANOVA: SSA=200, SSB=150, SSAB=50, SSE=300. Test main effects",
+        "ssa": 200,
+        "ssb": 150,
+        "ssab": 50,
+        "sse": 300,
+        "fa": 8.0,
+        "fb": 6.0,
+        "formula": "F = MS_factor/MSE"
+      },
+      {
+        "id": 91,
+        "topic": "Nonparametric - Mann-Whitney",
+        "question": "Group1: [12,15,18,20], Group2: [10,13,16,19]. Test equality",
+        "group1": [12, 15, 18, 20],
+        "group2": [10, 13, 16, 19],
+        "u_statistic": 7,
+        "decision": "No significant difference",
+        "formula": "U = n₁n₂ + n₁(n₁+1)/2 - R₁"
+      },
+      {
+        "id": 92,
+        "topic": "Survival Analysis",
+        "question": "Kaplan-Meier: Times [5,8,12+,15,20+]. Find S(10)",
+        "times": [5, 8, "12+", 15, "20+"],
+        "survival_prob": 0.6,
+        "formula": "S(t) = ∏(1 - dᵢ/nᵢ) for tᵢ ≤ t"
+      },
+      {
+        "id": 93,
+        "topic": "Time Series - Autocorrelation",
+        "question": "Data: [2,4,3,5,4,6,5,7]. Find lag-1 autocorrelation",
+        "data": [2, 4, 3, 5, 4, 6, 5, 7],
+        "lag1_autocorr": 0.714,
+        "formula": "r₁ = Σ(xₜ-x̄)(xₜ₊₁-x̄)/Σ(xₜ-x̄)²"
+      },
+      {
+        "id": 94,
+        "topic": "Bayes' Theorem",
+        "question": "P(A)=0.3, P(B|A)=0.8, P(B|A')=0.2. Find P(A|B)",
+        "p_a": 0.3,
+        "p_b_given_a": 0.8,
+        "p_b_given_a_complement": 0.2,
+        "solution": 0.632,
+        "formula": "P(A|B) = P(B|A)P(A)/P(B)"
+      },
+      {
+        "id": 95,
+        "topic": "Markov Chain",
+        "question": "Transition matrix P = [[0.7,0.3],[0.4,0.6]]. Find steady state",
+        "transition_matrix": [[0.7, 0.3], [0.4, 0.6]],
+        "steady_state": [0.571, 0.429],
+        "formula": "πP = π, Σπᵢ = 1"
+      },
+      {
+        "id": 96,
+        "topic": "Bootstrap Sampling",
+        "question": "Sample [10,12,15,18,20]. Bootstrap mean estimate with 95% CI",
+        "sample": [10, 12, 15, 18, 20],
+        "bootstrap_mean": 15,
+        "ci_lower": 11.2,
+        "ci_upper": 18.8,
+        "formula": "Resample with replacement, calculate statistic"
+      },
+      {
+        "id": 97,
+        "topic": "Principal Component Analysis",
+        "question": "Covariance matrix eigenvalues: [3.2, 1.8, 0.5]. Find proportion of variance explained by PC1",
+        "eigenvalues": [3.2, 1.8, 0.5],
+        "pc1_proportion": 0.582,
+        "formula": "Proportion = λ₁/Σλᵢ"
+      },
+      {
+        "id": 98,
+        "topic": "Maximum Likelihood Estimation",
+        "question": "Exponential data: [1.2, 2.3, 0.8, 3.1, 1.7]. Find MLE for λ",
+        "data": [1.2, 2.3, 0.8, 3.1, 1.7],
+        "sample_mean": 1.82,
+        "mle_lambda": 0.549,
+        "formula": "λ̂ = 1/x̄ for exponential MLE"
+      },
+      {
+        "id": 99,
+        "topic": "Logistic Regression",
+        "question": "β₀=-2, β₁=0.5. Find P(Y=1) when X=6",
+        "beta0": -2,
+        "beta1": 0.5,
+        "x_value": 6,
+        "probability": 0.5,
+        "formula": "P(Y=1) = e^(β₀+β₁X)/(1+e^(β₀+β₁X))"
+      },
+      {
+        "id": 100,
+        "topic": "Design of Experiments - Latin Square",
+        "question": "4×4 Latin Square. Calculate efficiency relative to randomized design",
+        "size": 4,
+        "treatments": 4,
+        "efficiency": 1.33,
+        "formula": "Efficiency = (n-1)/(n-t+1) for Latin Square"
+      }
+    ]
+  }
+}
