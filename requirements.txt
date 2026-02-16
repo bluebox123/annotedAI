@@ -14,7 +14,7 @@ transformers==4.55.0
 # torch is optional; install the correct wheel for your OS/Python using:
 #   pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision torchaudio
 # Mathematical computation libraries
-sympy==1.12
+sympy==1.13.1
 scipy==1.15.1
 matplotlib==3.9.0
 regex==2023.10.3
