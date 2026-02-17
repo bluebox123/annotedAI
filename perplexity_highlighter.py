@@ -18,11 +18,11 @@ class PerplexityHighlighter:
         self.model: str = "sonar-pro"
 
         self.category_colors: Dict[str, Tuple[float, float, float]] = {
-            "Main Answer": (1.0, 0.95, 0.2),       # warm yellow
-            "Context": (0.1, 0.7, 0.3),           # green
-            "Advanced Topic": (0.2, 0.4, 1.0),    # blue
-            "Supporting info": (1.0, 0.6, 0.0),   # orange
-            "Definition": (0.9, 0.2, 0.8),        # magenta
+            "Main Answer": (1.0, 1.0, 0.6),       # Soft yellow (readable)
+            "Context": (0.75, 0.95, 0.75),        # Soft green
+            "Advanced Topic": (0.75, 0.85, 1.0),   # Soft blue
+            "Supporting info": (1.0, 0.9, 0.7),    # Soft orange
+            "Definition": (1.0, 0.85, 0.95),       # Soft magenta
         }
 
     def _split_sentences(self, text: str) -> List[str]:
@@ -158,7 +158,17 @@ class PerplexityHighlighter:
                             if total_marks >= max_highlights:
                                 break
                             r = fitz.Rect(rect_dict["x0"], rect_dict["y0"], rect_dict["x1"], rect_dict["y1"])
-                            page.draw_rect(r, fill=color, fill_opacity=0.48, overlay=True)
+                            # Expand slightly so highlight doesn't touch text
+                            r = r + (-1, -1, 1, 1)
+                            page.draw_rect(
+                                r,
+                                fill=color,
+                                fill_opacity=0.20,
+                                color=color,
+                                stroke_opacity=0.50,
+                                stroke_width=0.5,
+                                overlay=True
+                            )
                             total_marks += 1
                     except Exception as e:
                         print(f"Error highlighting on page {p0}: {e}")

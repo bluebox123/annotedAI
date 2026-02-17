@@ -6,6 +6,7 @@ import FileUpload from './components/FileUpload';
 import QuestionInput from './components/QuestionInput';
 import AnswerDisplay from './components/AnswerDisplay';
 import SourcesList from './components/SourcesList';
+import CitationsList from './components/CitationsList';
 import PDFPreview from './components/PDFPreview';
 import Sidebar from './components/Sidebar';
 
@@ -215,6 +216,16 @@ function App() {
                   </div>
                 )}
               </div>
+
+              {/* Citations for selected assistant message */}
+              {selectedAssistantMsg && (selectedAssistantMsg.citations || []).length > 0 && (
+                <div className="mt-4">
+                  <CitationsList
+                    citations={selectedAssistantMsg.citations}
+                    darkMode={darkMode}
+                  />
+                </div>
+              )}
 
               {/* Sources for selected assistant message - scrolls with chat */}
               {selectedAssistantMsg && (selectedAssistantMsg.sources || []).length > 0 && (

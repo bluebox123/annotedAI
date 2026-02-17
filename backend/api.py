@@ -272,7 +272,10 @@ def _select_top_snippets(text: str, answer: str, fallback: str = "") -> List[str
     if not text:
         return []
     if not answer:
-        return [text[:220]] if text else ([fallback] if fallback else [])
+        # Prefer fallback (quote) over raw text when no answer context
+        if fallback:
+            return [fallback]
+        return [text[:220]] if text else []
 
     sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if s.strip()]
     if not sentences:
