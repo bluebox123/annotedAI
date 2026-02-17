@@ -171,9 +171,19 @@ class PDFProcessor:
 
             snippet = _normalize_for_search(snippet_raw)
 
-            # Prefer a short exact search first
-            if len(snippet) > 120:
-                snippet = snippet[:120]
+            # Prefer an exact search first (bounded by a few prefixes).
+            # Truncating too aggressively often prevents any match.
+            prefix_candidates: List[str] = []
+            if snippet:
+                prefix_candidates.append(snippet)
+                if len(snippet) > 220:
+                    prefix_candidates.append(snippet[:220])
+                if len(snippet) > 160:
+                    prefix_candidates.append(snippet[:160])
+                if len(snippet) > 120:
+                    prefix_candidates.append(snippet[:120])
+                if len(snippet) > 80:
+                    prefix_candidates.append(snippet[:80])
 
             def _add_rects(phrase: str):
                 phrase = _normalize_for_search(phrase)
@@ -188,10 +198,13 @@ class PDFProcessor:
                     })
 
             if snippet:
-                _add_rects(snippet)
-                # Also try a punctuation-stripped variant (PDF text often drops punctuation)
-                if not coordinates:
-                    _add_rects(re.sub(r"[^A-Za-z0-9 ]+", " ", snippet))
+                for cand in prefix_candidates:
+                    if coordinates:
+                        break
+                    _add_rects(cand)
+                    # Also try a punctuation-stripped variant (PDF text often drops punctuation)
+                    if not coordinates:
+                        _add_rects(re.sub(r"[^A-Za-z0-9 ]+", " ", cand))
 
             # If nothing found, try shorter windows (PDF extraction often changes spacing/ligatures)
             if not coordinates and snippet:

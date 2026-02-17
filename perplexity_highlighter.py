@@ -163,10 +163,10 @@ class PerplexityHighlighter:
                             page.draw_rect(
                                 r,
                                 fill=color,
-                                fill_opacity=0.28,
+                                fill_opacity=0.38,
                                 color=color,
-                                stroke_opacity=0.50,
-                                width=0.8,
+                                stroke_opacity=0.90,
+                                width=1.2,
                                 overlay=True
                             )
                             total_marks += 1
