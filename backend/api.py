@@ -193,7 +193,8 @@ async def ask_question(
             source,
             clean_answer,
             highlight_engine,
-            max_highlights=22  # allow more rectangles across multiple snippets
+            max_highlights=22,  # allow more rectangles across multiple snippets
+            source_index=idx,
         )
         if preview:
             preview['source_index'] = idx
@@ -214,7 +215,7 @@ async def ask_question(
     }
 
 
-async def generate_highlighted_preview(source: dict, answer: str, engine: str, max_highlights: int = 12):
+async def generate_highlighted_preview(source: dict, answer: str, engine: str, max_highlights: int = 12, source_index: int = 0):
     """Generate a highlighted PDF preview - highlight a few answer-focused snippets."""
     filename = source.get('filename')
     page = source.get('page', 1)
@@ -232,7 +233,8 @@ async def generate_highlighted_preview(source: dict, answer: str, engine: str, m
 
     # Create highlighted PDF from multiple snippets (same page)
     targets = [(page - 1, s[:280].strip()) for s in snippets if s.strip()]
-    out_stub = f"preview_{filename.replace('.pdf', '')}"
+    safe_base = filename.replace('.pdf', '')
+    out_stub = f"preview_{safe_base}_s{int(source_index)+1}_p{int(page)}"
     
     try:
         if engine == "perplexity":

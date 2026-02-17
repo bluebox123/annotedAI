@@ -6,6 +6,7 @@ import numpy as np
 from pdf_processor import PDFProcessor
 import time
 import fitz  
+import uuid
 
 try:
     from sentence_transformers import SentenceTransformer, util as st_util
@@ -259,7 +260,7 @@ class SimpleHighlighter:
 
                 os.makedirs("highlighted_pdfs", exist_ok=True)
                 timestamp = time.strftime("%Y%m%d_%H%M%S")
-                out_path = os.path.join("highlighted_pdfs", f"highlighted_{label}_{timestamp}.pdf")
+                out_path = os.path.join("highlighted_pdfs", f"highlighted_{label}_{timestamp}_{uuid.uuid4().hex[:8]}.pdf")
                 doc.save(out_path)
             finally:
                 doc.close()

@@ -6,6 +6,7 @@ from typing import Dict, Optional, Tuple, List
 
 import requests
 import fitz  # PyMuPDF
+import uuid
 
 from pdf_processor import PDFProcessor
 
@@ -176,7 +177,7 @@ class PerplexityHighlighter:
 
                 os.makedirs("highlighted_pdfs", exist_ok=True)
                 timestamp = time.strftime("%Y%m%d_%H%M%S")
-                out_path = os.path.join("highlighted_pdfs", f"highlighted_{label}_{timestamp}.pdf")
+                out_path = os.path.join("highlighted_pdfs", f"highlighted_{label}_{timestamp}_{uuid.uuid4().hex[:8]}.pdf")
                 doc.save(out_path)
             finally:
                 doc.close()
