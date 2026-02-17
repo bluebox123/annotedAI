@@ -71,6 +71,8 @@ function App() {
         id: `${Date.now()}_a`,
         role: 'assistant',
         content: response.answer,
+        answer_with_citations: response.answer_with_citations,
+        citations: response.citations || [],
         sources: response.sources || [],
         previews: response.previews || [],
       };

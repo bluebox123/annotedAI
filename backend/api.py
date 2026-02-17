@@ -32,6 +32,51 @@ from rag_engine import RAGEngine
 from simple_highlighter import SimpleHighlighter
 from perplexity_highlighter import PerplexityHighlighter
 
+
+def _extract_inline_citations(answer: str) -> tuple[str, List[Dict]]:
+    """Strip inline '(Source X, Page Y)' citations from an answer and return them separately."""
+    import re
+
+    answer = answer or ""
+    citations: List[Dict] = []
+
+    # Matches (conservatively):
+    # (Source 2, Page 7)
+    # (Source 2, Page 7 — Some.pdf)
+    # Source 2, Page 7
+    # Source 2 Page 7
+    # [1], [2] style
+    pat_source_page = re.compile(
+        r"(?P<full>\(?\s*Source\s+(?P<source>\d+)\s*,?\s*Page\s+(?P<page>\d+)\s*(?:[—\-]\s*(?P<filename>[^\)\n]+))?\s*\)?)",
+        flags=re.IGNORECASE,
+    )
+    pat_bracket_num = re.compile(r"\[(?P<num>\d{1,3})\]")
+
+    seen = set()
+    for m in pat_source_page.finditer(answer):
+        key = (int(m.group("source")), int(m.group("page")), ((m.group("filename") or "").strip() or None))
+        if key in seen:
+            continue
+        seen.add(key)
+        citations.append(
+            {
+                "source": key[0],
+                "page": key[1],
+                "filename": key[2],
+                "raw": m.group("full"),
+            }
+        )
+
+    clean = pat_source_page.sub("", answer)
+    clean = pat_bracket_num.sub("", clean)
+    # Cleanup extra spaces around punctuation introduced by removal
+    clean = re.sub(r"\s+([,.;:!?])", r"\\1", clean)
+    clean = re.sub(r"\n{3,}", "\n\n", clean)
+    clean = re.sub(r"[ \t]{2,}", " ", clean)
+    clean = clean.strip()
+
+    return clean, citations
+
 app = FastAPI(title="RAG PDF Highlighter API")
 
 # Enable CORS for React frontend
@@ -133,6 +178,9 @@ async def ask_question(
 
     # Get answer
     response = rag_engine.query(question, history=history_msgs)
+
+    raw_answer = response.get('answer', '') or ''
+    clean_answer, citations = _extract_inline_citations(raw_answer)
     
     # IMPORTANT: Perplexity citations use the exact ordering of context sources.
     # Use context_sources as the authoritative list so Source N / Page Y in the
@@ -143,7 +191,7 @@ async def ask_question(
     for idx, source in enumerate(sources[:3]):  # Limit to top 3
         preview = await generate_highlighted_preview(
             source,
-            response.get('answer', ''),
+            clean_answer,
             highlight_engine,
             max_highlights=22  # allow more rectangles across multiple snippets
         )
@@ -156,7 +204,9 @@ async def ask_question(
     active_preview = previews[0] if previews else None
     
     return {
-        'answer': response.get('answer', ''),
+        'answer': clean_answer,
+        'answer_with_citations': raw_answer,
+        'citations': citations,
         'sources': sources,
         'context_sources': response.get('context_sources', []),
         'previews': previews,
@@ -219,12 +269,10 @@ def _select_top_snippets(text: str, answer: str, fallback: str = "") -> List[str
     """Pick a few short phrases/sentences that best align with the answer."""
     import re
     fallback = (fallback or "").strip()
-    if fallback:
-        return [fallback]
     if not text:
         return []
     if not answer:
-        return [text[:220]]
+        return [text[:220]] if text else ([fallback] if fallback else [])
 
     sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if s.strip()]
     if not sentences:
@@ -250,6 +298,9 @@ def _select_top_snippets(text: str, answer: str, fallback: str = "") -> List[str
     if top:
         return top
 
+    if fallback:
+        return [fallback]
+
     # fallback: produce a few keyword windows from the chunk text
     words = [w for w in re.split(r"\s+", text) if w]
     if not words:
@@ -262,7 +313,7 @@ def _select_top_snippets(text: str, answer: str, fallback: str = "") -> List[str
             windows.append(w)
         if len(windows) >= 4:
             break
-    return windows or [text[:220]]
+    return windows or ([fallback] if fallback else [text[:220]])
 
 
 @app.get("/api/preview/{preview_id}")
