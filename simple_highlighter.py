@@ -246,10 +246,10 @@ class SimpleHighlighter:
                             page.draw_rect(
                                 r,
                                 fill=color,
-                                fill_opacity=0.20,
+                                fill_opacity=0.28,
                                 color=color,
                                 stroke_opacity=0.50,
-                                stroke_width=0.5,
+                                width=0.8,
                                 overlay=True
                             )
                             total_marks += 1
